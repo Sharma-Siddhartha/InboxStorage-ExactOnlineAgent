@@ -43,15 +43,19 @@ def ensure_table(cur, entity: str):
 
 
 def write_batch(run: Run, cur, entity: str, division: str, rows: list[dict], id_field: str, mode: str):
+    """Stage one API page (up to 1,000 rows) with a single INSERT instead of one per row."""
     if not rows:
         return 0
     cur.execute(f"CREATE TEMPORARY TABLE IF NOT EXISTS STG_{entity} (DIVISION STRING, ID STRING, EXACT_TS NUMBER, RECORD_HASH STRING, PAYLOAD STRING)")
-    vals = []
+    batch = []
     for r in rows:
         payload = json.dumps(r, sort_keys=True, default=str)
-        vals.append((division, str(r.get(id_field)), r.get("Timestamp"), hashlib.sha256(payload.encode()).hexdigest(), payload))
-    cur.executemany(f"INSERT INTO STG_{entity} VALUES (%s,%s,%s,%s,%s)", vals)
-    return len(vals)
+        batch.append({"d": division, "i": str(r.get(id_field)), "t": r.get("Timestamp"),
+                      "h": hashlib.sha256(payload.encode()).hexdigest(), "p": payload})
+    cur.execute(f"""INSERT INTO STG_{entity}
+        SELECT f.value:d::STRING, f.value:i::STRING, f.value:t::NUMBER, f.value:h::STRING, f.value:p::STRING
+        FROM TABLE(FLATTEN(INPUT => PARSE_JSON(%s))) f""", (json.dumps(batch),))
+    return len(batch)
 
 
 def flush(run: Run, cur, entity: str, mode: str) -> int:

@@ -31,13 +31,13 @@ SELECT t.DIVISION, t.ID AS LINE_ID,
   t.PAYLOAD:GLAccountCode::STRING   AS GL_CODE,
   t.PAYLOAD:AccountCode::STRING     AS CUSTOMER_CODE,      -- relation number = Striker customer code
   t.PAYLOAD:AmountDC::NUMBER(18,2)  AS AMOUNT_EUR,         -- positive = debit
-  t.PAYLOAD:AmountVATDC::NUMBER(18,2) AS VAT_AMOUNT_EUR,
+  t.PAYLOAD:AmountVATFC::NUMBER(18,2) AS VAT_AMOUNT_EUR,   -- transaction currency; = EUR unless foreign-currency postings exist
   t.PAYLOAD:VATCode::STRING         AS VAT_CODE,
   t.PAYLOAD:CostCenter::STRING      AS COST_CENTER,
   t.PAYLOAD:CostUnit::STRING        AS COST_UNIT,
   t.PAYLOAD:InvoiceNumber::NUMBER   AS INVOICE_NUMBER,
   t.PAYLOAD:DueDate::DATE           AS DUE_DATE,
-  t.PAYLOAD:Status::NUMBER          AS STATUS,              -- [VERIFY] draft/processed codes
+  t.PAYLOAD:Status::NUMBER          AS STATUS,              -- 20 = entered, 50 = processed
   t.PAYLOAD:Description::STRING     AS DESCRIPTION,         -- NULL for wage-cost accounts (loader strips it)
   t.PAYLOAD:Created::TIMESTAMP_NTZ  AS CREATED_AT
 FROM EXACT.RAW.TRANSACTION_LINES t

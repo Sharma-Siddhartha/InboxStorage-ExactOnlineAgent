@@ -9,7 +9,7 @@ entities:
     mode: sync
     phase: 1
     fields: [ID, Timestamp, EntryID, EntryNumber, LineNumber, Date, FinancialYear, FinancialPeriod,
-             JournalCode, Type, GLAccountCode, AccountCode, AmountDC, AmountVATDC, VATCode,
+             JournalCode, Type, GLAccountCode, AccountCode, AmountDC, AmountVATFC, VATCode,
              CostCenter, CostUnit, InvoiceNumber, DueDate, Status, Description, Created]
     wage_strip: [Description, AccountCode]   # on wage_gl_codes (governance/settings.yml)
   GL_ACCOUNTS:
@@ -22,6 +22,7 @@ entities:
     mode: full
     phase: 1
     verify: true
+    enabled: false          # 400 on first run: field names to confirm (see error text next run)
     fields: [ID, GLAccount, Classification, GLScheme]
   ACCOUNTS:                         # customers and suppliers: codes and terms only
     path: sync/CRM/Accounts

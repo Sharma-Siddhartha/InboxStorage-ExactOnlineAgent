@@ -48,7 +48,7 @@ class ExactReadOnly:
             if r.status_code == 429:
                 time.sleep(60)
                 return self.get(url, params, entity)
-            r.raise_for_status()
+            raise requests.HTTPError(f"{r.status_code} {entity}: {r.text[:500]}", response=r)
         return r.json()["d"]
 
     def _respect_limits(self, r):

@@ -14,7 +14,7 @@ CURRENT_PHASE = int(os.environ.get("EXACT_AGENT_PHASE", "3"))
 FOUNDATION = {
     "exact-loader": [sys.executable, "loader/load.py", "--phase", str(CURRENT_PHASE)],
     "exact-master-data-sync": [sys.executable, "loader/load.py", "--entities",
-                               "ACCOUNTS,BANK_ACCOUNTS,ITEMS,COST_CENTERS,COST_UNITS,PAYMENT_CONDITIONS,VAT_CODES,JOURNALS,GL_ACCOUNT_CLASSIFICATION_MAPPINGS"],
+                               "ACCOUNTS,BANK_ACCOUNTS,ITEMS,COST_CENTERS,COST_UNITS,PAYMENT_CONDITIONS,VAT_CODES,JOURNALS"],
     "exact-config-snapshot": [sys.executable, "loader/config_snapshot.py"],
     "exact-audit-export": [sys.executable, "loader/audit_export.py"],
 }
