@@ -127,7 +127,7 @@ def main():
             with run.step(f"exact-loader:{entity}:{division}", requires_ok=False) as ctx:
                 ctx["rows_out"] = load_entity(run, api, entity, CFG["entities"][entity], division)
     run.finish()
-    print(f"run {run.run_id}: {run.status}")
+    print(f"{'part of run' if run.joined else 'run'} {run.run_id}: {run.status}")
     sys.exit(0 if run.status == "succeeded" else 1)
 
 

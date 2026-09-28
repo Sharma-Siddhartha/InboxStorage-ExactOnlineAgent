@@ -16,6 +16,12 @@ def luhn(s: str) -> bool:
     total = sum(d[0::2]) + sum(sum(divmod(2 * x, 10)) for x in d[1::2])
     return total % 10 == 0
 
+IBAN_MASK = re.compile(r"\b([A-Z]{2}\d{2}[A-Z0-9]{4}\d{3,})(\d{4})\b")
+
+def mask_ibans(text: str) -> str:
+    """Replace IBAN-like strings (e.g. in GL account names) by '[IBAN …1234]': still tells accounts apart."""
+    return IBAN_MASK.sub(lambda m: f"[IBAN …{m.group(2)}]", text)
+
 def scan(text: str) -> list[str]:
     hits = [f"IBAN-like: {m.group(0)[:6]}…" for m in IBAN.finditer(text)]
     hits += [f"card-like: {m.group(0)[:4]}…" for m in CARD.finditer(text) if luhn(m.group(0))]

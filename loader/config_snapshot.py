@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "platform" / "lib")); sys.path.insert(0, str(ROOT / "platform" / "checks"))
 load_dotenv(ROOT / ".env")
 from agent_ops import Run            # noqa: E402
-from pii_guard import assert_clean   # noqa: E402
+from pii_guard import assert_clean, mask_ibans   # noqa: E402
 
 SNAPSHOTS = {
     "gl_accounts":  "SELECT GL_CODE, GL_DESCRIPTION, ACCOUNT_TYPE, BALANCE_TYPE, BALANCE_SIDE, DEFAULT_VAT_CODE, DEFAULT_COST_CENTER, IS_BLOCKED FROM EXACT.CORE.GL_ACCOUNTS WHERE DIVISION=%s ORDER BY GL_CODE",
@@ -34,7 +34,7 @@ def main():
                 cur.execute(run.header(skill="exact-config-snapshot") + sql, (division,))
                 cols = [c[0] for c in cur.description]
                 rows = [dict(zip(cols, r)) for r in cur.fetchall()]
-                text = json.dumps(rows, indent=1, ensure_ascii=False, default=str)
+                text = mask_ibans(json.dumps(rows, indent=1, ensure_ascii=False, default=str))
                 assert_clean(text, f"snapshots/{division}/{name}.json")
                 (out / f"{name}.json").write_text(text + "\n", encoding="utf-8"); n += len(rows)
             ctx["rows_out"] = n
