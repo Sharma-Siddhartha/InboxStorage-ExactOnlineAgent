@@ -43,11 +43,20 @@ def main():
         if r["monitor"] != a.monitor:
             continue
         try:
+            needs = (r.get("threshold") or {}).get("setting") if isinstance(r.get("threshold"), dict) else None
+            for name in ([needs] if isinstance(needs, str) else needs or []):
+                v = SETTINGS.get(name)
+                if v == "TBD" or (isinstance(v, list) and "TBD" in v):
+                    raise LookupError(f"setting '{name}' is TBD")
             sql = render(r["sql"])
         except LookupError as e:
             report["skipped"].append({"rule": r["id"], "reason": str(e)}); continue
         header = f"/* agent=exact run_id={a.run_id} step_id={a.step_id} skill={a.monitor} rule={r['id']}v{r['version']} */\n"
-        cur.execute(header + sql)
+        try:
+            cur.execute(header + sql)
+        except Exception as e:                      # one broken rule must not stop the others
+            report.setdefault("failed", []).append({"rule": r["id"], "version": r["version"], "error": str(e)[:300]})
+            continue
         qid = cur.sfqid
         rows = cur.fetchall()
         # all findings of a rule in one statement (row-by-row inserts took ~0.4 s each)
@@ -74,6 +83,7 @@ def main():
         closed = cur.rowcount
         report["evaluated"].append({"rule": r["id"], "version": r["version"], "open": len(rows), "resolved": closed})
     print(json.dumps(report, indent=1))
+    sys.exit(1 if report.get("failed") else 0)
 
 
 if __name__ == "__main__":

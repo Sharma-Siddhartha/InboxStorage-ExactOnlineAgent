@@ -1,5 +1,6 @@
 -- EXACT.CORE: clean current-state views for the agent and Power BI.
--- Field names follow the Exact Online REST API. Marked [VERIFY] = check after the first full load.
+-- Field names follow the Exact Online REST API. Exact pads codes with spaces
+-- (relation codes left-padded, VAT codes right-padded): every code is TRIMmed here. Marked [VERIFY] = check after the first full load.
 -- Latest version per record: QUALIFY on LOADED_AT; deleted records removed via RAW.DELETED.
 
 -- Exact's API returns dates as OData strings like "/Date(1546214400000)/" (milliseconds since 1970).
@@ -19,9 +20,9 @@ SELECT DIVISION, ID AS GL_ACCOUNT_ID,
   PAYLOAD:Type::NUMBER          AS ACCOUNT_TYPE,        -- 110 = revenue (agreed definition), see GOVERNANCE.ACCOUNT_TYPES
   PAYLOAD:BalanceType::STRING   AS BALANCE_TYPE,        -- 'W' = profit & loss, 'B' = balance sheet
   PAYLOAD:BalanceSide::STRING   AS BALANCE_SIDE,
-  PAYLOAD:VATCode::STRING       AS DEFAULT_VAT_CODE,
-  PAYLOAD:Costcenter::STRING    AS DEFAULT_COST_CENTER,
-  PAYLOAD:Costunit::STRING      AS DEFAULT_COST_UNIT,
+  TRIM(PAYLOAD:VATCode::STRING) AS DEFAULT_VAT_CODE,
+  TRIM(PAYLOAD:Costcenter::STRING) AS DEFAULT_COST_CENTER,
+  TRIM(PAYLOAD:Costunit::STRING) AS DEFAULT_COST_UNIT,
   PAYLOAD:IsBlocked::BOOLEAN    AS IS_BLOCKED,
   EXACT.CORE.EXACT_TS(PAYLOAD:Created) AS CREATED_AT,
   EXACT.CORE.EXACT_TS(PAYLOAD:Modified) AS MODIFIED_AT
@@ -39,12 +40,12 @@ SELECT t.DIVISION, t.ID AS LINE_ID,
   t.PAYLOAD:JournalCode::STRING     AS JOURNAL_CODE,
   t.PAYLOAD:Type::NUMBER            AS TRANSACTION_TYPE,   -- 310 = year-end closing (verified: only period 12, ~all P&L accounts)
   t.PAYLOAD:GLAccountCode::STRING   AS GL_CODE,
-  IFF(w.GL_CODE IS NULL, t.PAYLOAD:AccountCode::STRING, NULL) AS CUSTOMER_CODE, -- relation number = Striker customer code
+  IFF(w.GL_CODE IS NULL, TRIM(t.PAYLOAD:AccountCode::STRING), NULL) AS CUSTOMER_CODE, -- relation number = Striker customer code
   t.PAYLOAD:AmountDC::NUMBER(18,2)  AS AMOUNT_EUR,         -- positive = debit
   t.PAYLOAD:AmountVATFC::NUMBER(18,2) AS VAT_AMOUNT_EUR,   -- transaction currency; = EUR unless foreign-currency postings exist
-  t.PAYLOAD:VATCode::STRING         AS VAT_CODE,
-  t.PAYLOAD:CostCenter::STRING      AS COST_CENTER,
-  t.PAYLOAD:CostUnit::STRING        AS COST_UNIT,
+  TRIM(t.PAYLOAD:VATCode::STRING)   AS VAT_CODE,
+  TRIM(t.PAYLOAD:CostCenter::STRING) AS COST_CENTER,
+  TRIM(t.PAYLOAD:CostUnit::STRING)  AS COST_UNIT,
   t.PAYLOAD:InvoiceNumber::NUMBER   AS INVOICE_NUMBER,
   EXACT.CORE.EXACT_TS(t.PAYLOAD:DueDate)::DATE           AS DUE_DATE,
   t.PAYLOAD:Status::NUMBER          AS STATUS,              -- 20 = entered, 50 = processed
@@ -83,7 +84,7 @@ FROM EXACT.CORE.COST_LINES WHERE METRIC_CLASS = 'wage_cost' GROUP BY 1,2,3,4;
 -- Open items from read/financial/ReceivablesList and PayablesList (full refresh each night).
 CREATE OR REPLACE VIEW EXACT.CORE.OPEN_RECEIVABLES AS
 SELECT DIVISION, ID AS OPEN_ITEM_ID,
-  PAYLOAD:AccountCode::STRING   AS CUSTOMER_CODE,
+  TRIM(PAYLOAD:AccountCode::STRING) AS CUSTOMER_CODE,
   PAYLOAD:InvoiceNumber::NUMBER AS INVOICE_NUMBER,
   EXACT.CORE.EXACT_TS(PAYLOAD:InvoiceDate)::DATE     AS INVOICE_DATE,
   EXACT.CORE.EXACT_TS(PAYLOAD:DueDate)::DATE         AS DUE_DATE,
@@ -95,7 +96,7 @@ WHERE RUN_ID = (SELECT RUN_ID FROM EXACT.RAW.RECEIVABLES_LIST ORDER BY LOADED_AT
 
 CREATE OR REPLACE VIEW EXACT.CORE.OPEN_PAYABLES AS
 SELECT DIVISION, ID AS OPEN_ITEM_ID,
-  PAYLOAD:AccountCode::STRING   AS SUPPLIER_CODE,
+  TRIM(PAYLOAD:AccountCode::STRING) AS SUPPLIER_CODE,
   PAYLOAD:InvoiceNumber::NUMBER AS INVOICE_NUMBER,
   EXACT.CORE.EXACT_TS(PAYLOAD:InvoiceDate)::DATE     AS INVOICE_DATE,
   EXACT.CORE.EXACT_TS(PAYLOAD:DueDate)::DATE         AS DUE_DATE,
@@ -141,7 +142,7 @@ SELECT DIVISION, PAYLOAD:Account::STRING AS RELATION_ID, PAYLOAD:BANK_FP::STRING
 FROM EXACT.RAW.BANK_ACCOUNTS GROUP BY 1,2,3;
 
 CREATE OR REPLACE VIEW EXACT.CORE.VAT_CODES AS
-SELECT DIVISION, ID, PAYLOAD:Code::STRING AS VAT_CODE, PAYLOAD:Description::STRING AS VAT_DESCRIPTION,
+SELECT DIVISION, ID, TRIM(PAYLOAD:Code::STRING) AS VAT_CODE, PAYLOAD:Description::STRING AS VAT_DESCRIPTION,
   PAYLOAD:Percentage::FLOAT AS PERCENTAGE, PAYLOAD:Type::STRING AS VAT_TYPE, PAYLOAD:IsBlocked::BOOLEAN AS IS_BLOCKED,
   PAYLOAD:GLToPay::STRING AS GL_TO_PAY_ID, PAYLOAD:GLToClaim::STRING AS GL_TO_CLAIM_ID
 FROM EXACT.RAW.VAT_CODES

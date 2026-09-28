@@ -1,23 +1,24 @@
 id: R005
-version: 1
+version: 2
 monitor: exact-hygiene-monitor
 title: Duplicate supplier records (same VAT number, KvK number, bank account or name)
 owner: finance_owner
 severity: medium
 threshold: null
-notes: Compares fingerprints only; names and numbers never leave Exact.
+notes: Compares fingerprints only; names and numbers never leave Exact. v2 drops a LATERAL subquery Snowflake can't evaluate.
 sql: |
+  WITH s AS (
+    SELECT DIVISION, RELATION_ID, CUSTOMER_CODE, VAT_FP, COC_FP, NAME_FP
+    FROM EXACT.CORE.RELATIONS WHERE IS_SUPPLIER AND NOT COALESCE(IS_BLOCKED, FALSE)),
+  fp AS (
+    SELECT DIVISION, CUSTOMER_CODE, 'vat' AS KIND, VAT_FP AS FP FROM s WHERE VAT_FP IS NOT NULL
+    UNION ALL SELECT DIVISION, CUSTOMER_CODE, 'coc', COC_FP FROM s WHERE COC_FP IS NOT NULL
+    UNION ALL SELECT DIVISION, CUSTOMER_CODE, 'name', NAME_FP FROM s WHERE NAME_FP IS NOT NULL
+    UNION ALL SELECT b.DIVISION, s.CUSTOMER_CODE, 'bank', b.BANK_FP
+      FROM EXACT.CORE.SUPPLIER_BANK_CHANGES b JOIN s ON s.RELATION_ID = b.RELATION_ID AND s.DIVISION = b.DIVISION
+      WHERE b.BANK_FP IS NOT NULL)
   SELECT 'group' AS OBJECT_TYPE, KIND || ':' || FP AS OBJECT_ID, DIVISION, NULL AS AMOUNT_EUR,
-         OBJECT_CONSTRUCT('match_on', KIND, 'supplier_codes', ARRAY_AGG(CUSTOMER_CODE)) AS METRIC
-  FROM (
-    SELECT r.DIVISION, r.CUSTOMER_CODE, k.KIND, k.FP
-    FROM EXACT.CORE.RELATIONS r,
-      LATERAL (SELECT 'vat' KIND, r.VAT_FP FP UNION ALL SELECT 'coc', r.COC_FP UNION ALL SELECT 'name', r.NAME_FP) k
-    WHERE r.IS_SUPPLIER AND NOT COALESCE(r.IS_BLOCKED, FALSE) AND k.FP IS NOT NULL
-    UNION ALL
-    SELECT b.DIVISION, r.CUSTOMER_CODE, 'bank', b.BANK_FP
-    FROM EXACT.CORE.SUPPLIER_BANK_CHANGES b JOIN EXACT.CORE.RELATIONS r ON r.RELATION_ID = b.RELATION_ID AND r.DIVISION = b.DIVISION
-    WHERE r.IS_SUPPLIER
-  )
+         OBJECT_CONSTRUCT('match_on', KIND, 'supplier_codes', ARRAY_AGG(DISTINCT CUSTOMER_CODE)) AS METRIC
+  FROM fp
   GROUP BY DIVISION, KIND, FP
   HAVING COUNT(DISTINCT CUSTOMER_CODE) > 1
