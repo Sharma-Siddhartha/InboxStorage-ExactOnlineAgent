@@ -6,7 +6,7 @@ PLATFORM.AGENT_OPS trace as the Python jobs. Snowflake access is through the Sno
 
 1. **Start the run before any work.**
    `SELECT UUID_STRING() AS RUN_ID;` then
-   `INSERT INTO PLATFORM.AGENT_OPS.RUNS (RUN_ID, AGENT, TASK, EVENT, AGENT_VERSION, MODEL, TRIGGER) VALUES ('<run_id>', 'exact', '<task>', 'started', '<agent.yml version>', '<model>', 'schedule');`
+   `INSERT INTO PLATFORM.AGENT_OPS.RUNS (RUN_ID, AGENT, TASK, EVENT, AGENT_VERSION, MODEL, TRIGGERED_BY) VALUES ('<run_id>', 'exact', '<task>', 'started', '<agent.yml version>', '<model>', 'schedule');`
 2. **Each skill is a step.** Create a STEP_ID the same way and insert `started`, then `succeeded`, `failed` (with REASON) or `skipped` (with REASON).
 3. **Every query starts with the header**, exactly:
    `/* agent=exact run_id=<run_id> step_id=<step_id> skill=<skill-name> */`

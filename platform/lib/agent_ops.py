@@ -45,7 +45,7 @@ class Run:
 
     def _event(self, event: str, note: str = ""):
         self.conn.cursor().execute(
-            f"INSERT INTO {OPS}.RUNS (RUN_ID, AGENT, TASK, EVENT, CODE_VERSION, AGENT_VERSION, TRIGGER, NOTE) "
+                       f"INSERT INTO {OPS}.RUNS (RUN_ID, AGENT, TASK, EVENT, CODE_VERSION, AGENT_VERSION, TRIGGERED_BY, NOTE) "
             "VALUES (%s,%s,%s,%s,%s,%s,%s,%s)",
             (self.run_id, self.agent, self.task, event, git_sha(self.repo), self.agent_version, self.trigger, note))
 

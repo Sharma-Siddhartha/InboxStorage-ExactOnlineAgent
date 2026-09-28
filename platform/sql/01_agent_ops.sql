@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS PLATFORM.AGENT_OPS.RUNS (
   CODE_VERSION  STRING,                   -- git commit of the agent repo
   AGENT_VERSION STRING,                   -- agent.yml version
   MODEL         STRING,                   -- model used for judgment steps, if any
-  TRIGGER       STRING,                   -- 'schedule' | 'manual' | 'message'
+  TRIGGERED_BY  STRING,                   -- 'schedule' | 'manual' | 'message'                  -- 'schedule' | 'manual' | 'message'
   NOTE          STRING
 );
 
