@@ -1,0 +1,67 @@
+[
+ {
+  "CODE": "0 ",
+  "DESCRIPTION": "Direct",
+  "DAYS": 0
+ },
+ {
+  "CODE": "00",
+  "DESCRIPTION": "NIET GEBRUIKEN",
+  "DAYS": 0
+ },
+ {
+  "CODE": "02",
+  "DESCRIPTION": "Adjustment for credit notes",
+  "DAYS": 50
+ },
+ {
+  "CODE": "11",
+  "DESCRIPTION": "11 days",
+  "DAYS": 11
+ },
+ {
+  "CODE": "14",
+  "DESCRIPTION": "14 dagen",
+  "DAYS": 14
+ },
+ {
+  "CODE": "20",
+  "DESCRIPTION": "NIET GEBRUIKEN",
+  "DAYS": 0
+ },
+ {
+  "CODE": "21",
+  "DESCRIPTION": "21 dagen",
+  "DAYS": 21
+ },
+ {
+  "CODE": "30",
+  "DESCRIPTION": "30 dagen",
+  "DAYS": 30
+ },
+ {
+  "CODE": "7 ",
+  "DESCRIPTION": "7 dagen",
+  "DAYS": 7
+ },
+ {
+  "CODE": "99",
+  "DESCRIPTION": "99 dagen (=uitstel = geen gemiep in PAYT!!!)",
+  "DAYS": 0
+ },
+ {
+  "CODE": "AC",
+  "DESCRIPTION": "AC04 closed or AC06 blocked",
+  "DAYS": 0
+ },
+ {
+  "CODE": "IN",
+  "DESCRIPTION": "incasso (7 dagen)",
+  "DAYS": 7
+ },
+ {
+  "CODE": "mo",
+  "DESCRIPTION": "mollie",
+  "DAYS": 0
+ }
+]

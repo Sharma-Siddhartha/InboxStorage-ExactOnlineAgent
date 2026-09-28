@@ -1,0 +1,112 @@
+[
+ {
+  "CODE": "06-BNZ-7",
+  "DESCRIPTION": "06-BNZ-7 Citytruck",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "1       ",
+  "DESCRIPTION": "1",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "2       ",
+  "DESCRIPTION": "2",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "3       ",
+  "DESCRIPTION": "3",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "4       ",
+  "DESCRIPTION": "4",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "5       ",
+  "DESCRIPTION": "5",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "6       ",
+  "DESCRIPTION": "6",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "ALGEM   ",
+  "DESCRIPTION": "Algemeen",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "FINAN   ",
+  "DESCRIPTION": "Finance",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "G-007-XB",
+  "DESCRIPTION": "G-007-XB Leaseauto marketing",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "GAMMA   ",
+  "DESCRIPTION": "Omzet Gamma",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "H-216-VF",
+  "DESCRIPTION": "H-216-VF leaseauto algemeen",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "HR      ",
+  "DESCRIPTION": "HR",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "INBOX   ",
+  "DESCRIPTION": "Omzet Inbox",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "KLANT   ",
+  "DESCRIPTION": "Customer Service",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "MARKE   ",
+  "DESCRIPTION": "Marketing",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "SALES   ",
+  "DESCRIPTION": "Sales",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "SERVI   ",
+  "DESCRIPTION": "Service",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "TRANS   ",
+  "DESCRIPTION": "Transport",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "TV-513-B",
+  "DESCRIPTION": "TV-513-B Leaseauto sales",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "VHH50K  ",
+  "DESCRIPTION": "VHH-50-K Citytruck Transport",
+  "ACTIVE": true
+ },
+ {
+  "CODE": "WAREH   ",
+  "DESCRIPTION": "Warehouse",
+  "ACTIVE": true
+ }
+]

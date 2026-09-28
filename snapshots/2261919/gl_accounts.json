@@ -1,0 +1,6362 @@
+[
+ {
+  "GL_CODE": "0021",
+  "GL_DESCRIPTION": "Uitbetaling Lening",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0110",
+  "GL_DESCRIPTION": "Onderzoek en ontwikkeling",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0115",
+  "GL_DESCRIPTION": "Afschrijvingen onderzoek en ontwikkeling",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0120",
+  "GL_DESCRIPTION": "Oprichtingskosten",
+  "ACCOUNT_TYPE": 32,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0130",
+  "GL_DESCRIPTION": "Concessies en vergunningen",
+  "ACCOUNT_TYPE": 32,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0140",
+  "GL_DESCRIPTION": "Intellectueel eigendom",
+  "ACCOUNT_TYPE": 32,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0150",
+  "GL_DESCRIPTION": "Goodwill",
+  "ACCOUNT_TYPE": 32,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0160",
+  "GL_DESCRIPTION": "Software",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0165",
+  "GL_DESCRIPTION": "Afschrijvingen software",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0180",
+  "GL_DESCRIPTION": "Hardware",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0185",
+  "GL_DESCRIPTION": "Afschrijvingen hardware",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0190",
+  "GL_DESCRIPTION": "Immateriële vaste activa overig",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0195",
+  "GL_DESCRIPTION": "Afschrijvingen immateriële vaste activa overig",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0200",
+  "GL_DESCRIPTION": "Grond",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0300",
+  "GL_DESCRIPTION": "Gebouwen",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0310",
+  "GL_DESCRIPTION": "Afschrijving gebouwen",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0350",
+  "GL_DESCRIPTION": "Verbouwingen",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0370",
+  "GL_DESCRIPTION": "Afschrijving verbouwingen",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0400",
+  "GL_DESCRIPTION": "Machines en installaties",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0410",
+  "GL_DESCRIPTION": "Afschrijving machines en installaties",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0420",
+  "GL_DESCRIPTION": "Transport en vervoermiddelen",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0430",
+  "GL_DESCRIPTION": "Afschrijving transport en vervoermiddelen",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0440",
+  "GL_DESCRIPTION": "Bedrijfsinventaris",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0450",
+  "GL_DESCRIPTION": "Afschrijving bedrijfsinventaris",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0460",
+  "GL_DESCRIPTION": "Activa Dev Verkoopkosten",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "0470",
+  "GL_DESCRIPTION": "Afschrijving Dev Verkoopkosten",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0480",
+  "GL_DESCRIPTION": "Herwaarderingen transport- en vervoersmiddelen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0481",
+  "GL_DESCRIPTION": "Herwaardering immateriële vaste activa",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0482",
+  "GL_DESCRIPTION": "Herwaardering hardware",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0485",
+  "GL_DESCRIPTION": "Herwaardering bedrijfsinventaris",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0490",
+  "GL_DESCRIPTION": "Overige materiële vaste activa",
+  "ACCOUNT_TYPE": 30,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0495",
+  "GL_DESCRIPTION": "Afschrijving overige materiële vaste activa",
+  "ACCOUNT_TYPE": 35,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0500",
+  "GL_DESCRIPTION": "Deelnemingen",
+  "ACCOUNT_TYPE": 32,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0700",
+  "GL_DESCRIPTION": "Aandelenkapitaal",
+  "ACCOUNT_TYPE": 50,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0710",
+  "GL_DESCRIPTION": "Agio",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0740",
+  "GL_DESCRIPTION": "Wettelijke reserve ontwikkelingskosten",
+  "ACCOUNT_TYPE": 50,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0750",
+  "GL_DESCRIPTION": "Overige reserve",
+  "ACCOUNT_TYPE": 50,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0770",
+  "GL_DESCRIPTION": "Onverdeeld resultaat",
+  "ACCOUNT_TYPE": 52,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0860",
+  "GL_DESCRIPTION": "Activa herwaarderingen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0900",
+  "GL_DESCRIPTION": "Lening BRIDGEFUND",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0900.1",
+  "GL_DESCRIPTION": " Aflossing boekjaar",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0900.2",
+  "GL_DESCRIPTION": "Opgenomen gelden",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0900.3",
+  "GL_DESCRIPTION": "Aflossing volgend boekjaar",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0901",
+  "GL_DESCRIPTION": "TNG Optics Loan",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0911",
+  "GL_DESCRIPTION": "Loan Iveco Daily 85-BZJ-7 (EQ332047)",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0912",
+  "GL_DESCRIPTION": "Loan Iveco Daily 83-BZJ-7 (EQ332048)",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0913",
+  "GL_DESCRIPTION": "Loan Iveco Daily 40-BZJ-8 (EQ332049)",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0914",
+  "GL_DESCRIPTION": "Loan Iveco Daily 86-BZJ-7 (EQ332050)",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0915",
+  "GL_DESCRIPTION": "Loan Iveco Daily 87-BZJ-7 (EQ332051)",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0916",
+  "GL_DESCRIPTION": "Loan Iveco Daily 85-BZJ-7 (VAT39827) EQ332047",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0917",
+  "GL_DESCRIPTION": "Loan Iveco Daily 83-BZJ-7 (VAT39828) EQ332048",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0918",
+  "GL_DESCRIPTION": "Loan Iveco Daily 40-BZJ-8 (VAT39829) EQ332049",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0919",
+  "GL_DESCRIPTION": "Loan Iveco Daily 86-BZJ-7 (VAT39830) EQ332050",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0920",
+  "GL_DESCRIPTION": "Loan Iveco Daily 87-BZJ-7 (VAT39831) EQ332051",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0921",
+  "GL_DESCRIPTION": "Loan DLL - jugheinrich (434-50601119)",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0930",
+  "GL_DESCRIPTION": "Hypothecaire leningen",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0931",
+  "GL_DESCRIPTION": "Lening NJT Snelleman lening 1",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0932",
+  "GL_DESCRIPTION": "Lening NJT Snelleman lening 2",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0933",
+  "GL_DESCRIPTION": "Lening NJT Snelleman lening 3",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0934",
+  "GL_DESCRIPTION": "Lening NJT Snelleman lening 4",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0935",
+  "GL_DESCRIPTION": "Lening NJT Snelleman lening 5",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0936",
+  "GL_DESCRIPTION": "Lang lopende schuld Counter Cut Capital BV",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0940",
+  "GL_DESCRIPTION": "Lease Koch opslag units",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0940.1",
+  "GL_DESCRIPTION": "Lease Koch opslag units kortlopend",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0940.2",
+  "GL_DESCRIPTION": "Aflossing kort termijn",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0941",
+  "GL_DESCRIPTION": "Lease BMW X5 H216VF",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0942",
+  "GL_DESCRIPTION": "Lease IVECO V-HH5-0K",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0942.1",
+  "GL_DESCRIPTION": "Lease IVECO V-HH5-0K Kortlopend",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0942.4",
+  "GL_DESCRIPTION": "Aflossing volgend boekjaar",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0943",
+  "GL_DESCRIPTION": "Lease Heftrucks Van der Spek",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0943.1",
+  "GL_DESCRIPTION": "Lease Heftrucks van der Spek",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0943.4",
+  "GL_DESCRIPTION": " Aflossing volgend boekjaar",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0950",
+  "GL_DESCRIPTION": "Lease kort lopend gedeelte auto's",
+  "ACCOUNT_TYPE": 22,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "0951",
+  "GL_DESCRIPTION": "Financiering Audi 2-KBN-33",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0952",
+  "GL_DESCRIPTION": "Lease kortlopend Koch",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0953",
+  "GL_DESCRIPTION": "Santander Cons Fin - R-982-FS - 01SF00569",
+  "ACCOUNT_TYPE": 55,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0954",
+  "GL_DESCRIPTION": "Betalingsplan voor verkeersboetes (Belastingdienst - CJIB)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0960",
+  "GL_DESCRIPTION": "R/C R Snelleman",
+  "ACCOUNT_TYPE": 65,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0961",
+  "GL_DESCRIPTION": "R/C inbox storage (don't use!)",
+  "ACCOUNT_TYPE": 65,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "0962",
+  "GL_DESCRIPTION": "R/C group holding",
+  "ACCOUNT_TYPE": 65,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0963",
+  "GL_DESCRIPTION": "R/C counter cut capital",
+  "ACCOUNT_TYPE": 65,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0964",
+  "GL_DESCRIPTION": "R/C properties",
+  "ACCOUNT_TYPE": 65,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0965",
+  "GL_DESCRIPTION": "R/C 54/11 mgmt",
+  "ACCOUNT_TYPE": 65,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0966",
+  "GL_DESCRIPTION": "R/C Kubox",
+  "ACCOUNT_TYPE": 65,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0990",
+  "GL_DESCRIPTION": "Overige schulden",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0990.2",
+  "GL_DESCRIPTION": "Accountantskosten",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0992",
+  "GL_DESCRIPTION": "Regeling Debiteuren",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0993",
+  "GL_DESCRIPTION": "Discussie Debiteuren",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0994",
+  "GL_DESCRIPTION": "Dubieuze Debiteuren",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "0995",
+  "GL_DESCRIPTION": "Voorziening Debiteuren",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1000",
+  "GL_DESCRIPTION": "Kas",
+  "ACCOUNT_TYPE": 10,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1100",
+  "GL_DESCRIPTION": "ABN AMRO Bank 430047975",
+  "ACCOUNT_TYPE": 12,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1101",
+  "GL_DESCRIPTION": "0248777467",
+  "ACCOUNT_TYPE": 12,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1102",
+  "GL_DESCRIPTION": "ABN #492",
+  "ACCOUNT_TYPE": 12,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1110",
+  "GL_DESCRIPTION": "ABN AMRO bank 977556999",
+  "ACCOUNT_TYPE": 12,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1111",
+  "GL_DESCRIPTION": "A-Suspenses creditor",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1120",
+  "GL_DESCRIPTION": "ABN AMRO [IBAN …2186]",
+  "ACCOUNT_TYPE": 12,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1130",
+  "GL_DESCRIPTION": "ABN Creditcard",
+  "ACCOUNT_TYPE": 12,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1140",
+  "GL_DESCRIPTION": "ABN Amro bank 53 88 52 186",
+  "ACCOUNT_TYPE": 12,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1200",
+  "GL_DESCRIPTION": "Uitstaande betalingen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1235",
+  "GL_DESCRIPTION": "tussenrekening creditcard ICS",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1236",
+  "GL_DESCRIPTION": "tussenrekening Amex creditcard",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1237",
+  "GL_DESCRIPTION": "tussenrekening creditcard other",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1240",
+  "GL_DESCRIPTION": "Doelenstraat Gouda tussenrekening",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1250",
+  "GL_DESCRIPTION": "vraagposten",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1251",
+  "GL_DESCRIPTION": "vraagposten debiteuren",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1252",
+  "GL_DESCRIPTION": "vraagposten incasso",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1253",
+  "GL_DESCRIPTION": "Tussenrekening Kubox",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1290",
+  "GL_DESCRIPTION": "Kruisposten liquide middelen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1300",
+  "GL_DESCRIPTION": "Debiteuren",
+  "ACCOUNT_TYPE": 20,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1308",
+  "GL_DESCRIPTION": "Debiteuren (cf jaarrekening 2018)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "1309",
+  "GL_DESCRIPTION": "Debiteuren Correctierekening SpaceManager 2007 tm 2018",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "1310",
+  "GL_DESCRIPTION": "Dubieuze Debiteuren",
+  "ACCOUNT_TYPE": 32,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1320",
+  "GL_DESCRIPTION": "Tussenrekening incassobureau's",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1322",
+  "GL_DESCRIPTION": "Tussenrekening Personeel",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1325",
+  "GL_DESCRIPTION": "Tussenrekening Uitbetalingen Incassobureau's",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1400",
+  "GL_DESCRIPTION": "Borg Units",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1405",
+  "GL_DESCRIPTION": "Borg Korting Units",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1410",
+  "GL_DESCRIPTION": "Borg verhuur materialen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1415",
+  "GL_DESCRIPTION": "Borg Korting Verhuur Bus / Aanhanger",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1420",
+  "GL_DESCRIPTION": "Borg Toegangspas",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1425",
+  "GL_DESCRIPTION": "Borg Korting Toegangspas",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1500",
+  "GL_DESCRIPTION": "Te betalen BTW 21 %",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1510",
+  "GL_DESCRIPTION": "Te betalen BTW 6 %",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1511",
+  "GL_DESCRIPTION": "Af te dragen BTW levering buiten EU (invoer)",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1512",
+  "GL_DESCRIPTION": "Af te dragen BTW verwerving goederen binnen EU",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1513",
+  "GL_DESCRIPTION": "BTW prive-gebruik",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1515",
+  "GL_DESCRIPTION": "Te betalen BTW 21% inkopen binnen EU",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": "5  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1520",
+  "GL_DESCRIPTION": "Te vorderen BTW 21 %",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1525",
+  "GL_DESCRIPTION": "Te vorderen BTW 21% inkopen binnen EU",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1530",
+  "GL_DESCRIPTION": "Te vorderen BTW 6 %",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1535",
+  "GL_DESCRIPTION": "Te betalen / vorderen BTW 0%",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1540",
+  "GL_DESCRIPTION": "Afdracht BTW",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1590",
+  "GL_DESCRIPTION": "Afdracht BTW",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1598",
+  "GL_DESCRIPTION": "Niet aftrekbare voorbelasting",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1599",
+  "GL_DESCRIPTION": "Tussenrekening correcties BTW aangifte",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1600",
+  "GL_DESCRIPTION": "Crediteuren",
+  "ACCOUNT_TYPE": 22,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1600.1",
+  "GL_DESCRIPTION": "Crediteuren - creditnota's",
+  "ACCOUNT_TYPE": 22,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1600.2",
+  "GL_DESCRIPTION": "Crediteuren",
+  "ACCOUNT_TYPE": 22,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1600.3",
+  "GL_DESCRIPTION": "Counter Cut Capital B.V. - Management fee",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1601",
+  "GL_DESCRIPTION": "Crediteuren voorgaand boekjaar",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1610",
+  "GL_DESCRIPTION": "Crediteuren oud",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "1650",
+  "GL_DESCRIPTION": "Crediteuren Discussie",
+  "ACCOUNT_TYPE": 22,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1670",
+  "GL_DESCRIPTION": "Medewerkersbetalingen",
+  "ACCOUNT_TYPE": 25,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1700",
+  "GL_DESCRIPTION": "Af te dragen loonheffing",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1700.1",
+  "GL_DESCRIPTION": "Langlopend",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1700.2",
+  "GL_DESCRIPTION": "Kortlopend",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1732",
+  "GL_DESCRIPTION": "Te vorderen loonheffingen",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1740",
+  "GL_DESCRIPTION": "Af te dragen sociale premies werknemer",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1741",
+  "GL_DESCRIPTION": "Af te dragen overige werknemerspremies",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1745",
+  "GL_DESCRIPTION": "Af te dragen sociale premies werkgever",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1746",
+  "GL_DESCRIPTION": "Af te dragen overige werkgeverpremies",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1770",
+  "GL_DESCRIPTION": "Te betalen reservering 13e maand",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1771",
+  "GL_DESCRIPTION": "Reservering werkgeverslasten 13e maand",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1779",
+  "GL_DESCRIPTION": "Te betalen/verekenen salarisvoorschotten",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1780",
+  "GL_DESCRIPTION": "Te betalen reservering vakantiegeld",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1781",
+  "GL_DESCRIPTION": "reservering vakantiedagen",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1785",
+  "GL_DESCRIPTION": "af te dragen pensioen",
+  "ACCOUNT_TYPE": 27,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1830",
+  "GL_DESCRIPTION": "Waarborg ontvangen",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1830.1",
+  "GL_DESCRIPTION": "Waarborg ontvangen kortlopend",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "1830.2",
+  "GL_DESCRIPTION": " Waarborg langlopend",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2000",
+  "GL_DESCRIPTION": "Kruisposten",
+  "ACCOUNT_TYPE": 26,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2100",
+  "GL_DESCRIPTION": "Nog te betalen kosten",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2101",
+  "GL_DESCRIPTION": "Nog te betalen facturen",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2102",
+  "GL_DESCRIPTION": "Waarborgsommen (OUD)",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "2103",
+  "GL_DESCRIPTION": "Nog te betalen accountantskosten",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2104",
+  "GL_DESCRIPTION": "Nog te betalen Development verk",
+  "ACCOUNT_TYPE": 60,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2105",
+  "GL_DESCRIPTION": "Nog te betalen commissarisvergoeding",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2150",
+  "GL_DESCRIPTION": "Vooruit gefactureerde omzet",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2200",
+  "GL_DESCRIPTION": "Nog te ontvangen facturen/goederen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2210",
+  "GL_DESCRIPTION": "Tussenrekening debiteuren ontvangsten PIN",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2210.1",
+  "GL_DESCRIPTION": "Vooruitbetaalde kosten",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2220",
+  "GL_DESCRIPTION": "Tussenrekening debiteuren ontvangsten KAS",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2220.1",
+  "GL_DESCRIPTION": "Waarborgsommen kortlopend",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2220.2",
+  "GL_DESCRIPTION": "Waarborsommen langlopend",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2221",
+  "GL_DESCRIPTION": "Borg Paid to Suppliers",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2230",
+  "GL_DESCRIPTION": "Overige vorderingen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2231",
+  "GL_DESCRIPTION": "Te ontvangen: Alexander (Employee nr.109 Nmbrs id: 984196)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2231.01",
+  "GL_DESCRIPTION": "Te ontvangen: Roald (Supplier :100744 - YL Company)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2232",
+  "GL_DESCRIPTION": "Te ontvangen: Ruben (Employee nr.134 Nmbrs id: 1063801)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2233",
+  "GL_DESCRIPTION": "Te ontvangen: Delano (Employee nr.173 Nmbrs id: 1199400)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2234",
+  "GL_DESCRIPTION": "Te ontvangen: Kijoma (Employee nr.180 Nmbrs id: 1218369)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2235",
+  "GL_DESCRIPTION": "Te ontvangen: Patrick (Employee nr.182 Nmbrs id: 1229838)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2236",
+  "GL_DESCRIPTION": "Te ontvangen: Ajibade (Employee nr.186 Nmbrs id: 1252407)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2237",
+  "GL_DESCRIPTION": "Te ontvangen: Luis Gusta (Employee nr.187 Nmbrs id: 1220725)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2238",
+  "GL_DESCRIPTION": "Te ontvangen: Mikal (Employee nr.XXX Nmbrs id: XXX)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2239",
+  "GL_DESCRIPTION": "Te ontvangen: Fabian (Employee nr. 185 Nmbrs id: 1201114)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2240",
+  "GL_DESCRIPTION": "Tussenrekening debiteuren ontvangsten E-commerce",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2241",
+  "GL_DESCRIPTION": "Te ontvangen:Khairul (Employee nr.XXX Nmbrs id: XXX)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2242",
+  "GL_DESCRIPTION": "Te ontvangen : Soufian (Employee nr.XXX Nmbrs id: XXX)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2243",
+  "GL_DESCRIPTION": "Te ontvangen: Maurice (Employee nr.XXX Nmbrs id: XXX)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2244",
+  "GL_DESCRIPTION": "Te ontvangen: Adriano (Employee nr.XXX Nmbrs id: XXX)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2245",
+  "GL_DESCRIPTION": "To be received: Ruently (Employee no.XXX Number ID: XXX)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2250",
+  "GL_DESCRIPTION": "Tussenrekening debiteuren ontvangsten Rabobank",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2260",
+  "GL_DESCRIPTION": "Tussenrekening debiteuren ontvangsten ING",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2290",
+  "GL_DESCRIPTION": "Memoriaal",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2300",
+  "GL_DESCRIPTION": "Omzetverloop",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2301",
+  "GL_DESCRIPTION": "Incasso batch",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2400",
+  "GL_DESCRIPTION": "Af te handelen bankmutaties",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2500",
+  "GL_DESCRIPTION": "Tussenrekening betalingen / pin",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "2501",
+  "GL_DESCRIPTION": "Afloop debiteuren",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2505",
+  "GL_DESCRIPTION": "Tussenrekening MollieChargeback transacties",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2510",
+  "GL_DESCRIPTION": "Tussenrekening Mollie",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2511",
+  "GL_DESCRIPTION": "Tussenrekening Mollie (dagboek)",
+  "ACCOUNT_TYPE": 16,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2520",
+  "GL_DESCRIPTION": "Tussenrekening MyPos",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "2530",
+  "GL_DESCRIPTION": "Tussenrekening SumUp",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "2575",
+  "GL_DESCRIPTION": "Tussenrekening dubbele betalingen debiteuren",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2580",
+  "GL_DESCRIPTION": "Tussenrekening Betalingen via PAYT",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2700",
+  "GL_DESCRIPTION": "Tussenrekening Lonen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2800",
+  "GL_DESCRIPTION": "Tussenrekening back post",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2900",
+  "GL_DESCRIPTION": "Tussenrekening beginbalans",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "2950",
+  "GL_DESCRIPTION": "Tussenrekening Verkoop Gouda",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "3000",
+  "GL_DESCRIPTION": "Voorraad handelsgoederen",
+  "ACCOUNT_TYPE": 40,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "3600",
+  "GL_DESCRIPTION": "Goederen in bewerking",
+  "ACCOUNT_TYPE": 40,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "3700",
+  "GL_DESCRIPTION": "Voorraadherwaardering",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "3999",
+  "GL_DESCRIPTION": "A-Suspense account PnL",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4000",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4001",
+  "GL_DESCRIPTION": "Tussenrekening boodschappen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4002",
+  "GL_DESCRIPTION": "Bonussen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4004",
+  "GL_DESCRIPTION": "Reservering vakantiegeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4005",
+  "GL_DESCRIPTION": "Sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4010",
+  "GL_DESCRIPTION": "Loonsubsidies",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4011",
+  "GL_DESCRIPTION": "Vakantiedagen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4019",
+  "GL_DESCRIPTION": "Onkostenvergoeding",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4020",
+  "GL_DESCRIPTION": "Kantinekosten",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4021",
+  "GL_DESCRIPTION": "meal and entertainment",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4030",
+  "GL_DESCRIPTION": "Kosten arbodienst",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4031",
+  "GL_DESCRIPTION": "Uitkering ziekengeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4040",
+  "GL_DESCRIPTION": "Ziekteverzuimverzekering",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4045",
+  "GL_DESCRIPTION": "Werknemersschadeverzekering",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4050",
+  "GL_DESCRIPTION": "Reiskostenvergoeding",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4051",
+  "GL_DESCRIPTION": "Bijdrage privé gebruik auto",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4060",
+  "GL_DESCRIPTION": "Uitzendkrachten",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4061",
+  "GL_DESCRIPTION": "aannemer kosten",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4062",
+  "GL_DESCRIPTION": "Employeed via external agency",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4065",
+  "GL_DESCRIPTION": "Overhead extern",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4070",
+  "GL_DESCRIPTION": "Managementvergoeding Counter Cut Capital BV",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4080",
+  "GL_DESCRIPTION": "Opleidingskosten",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4081",
+  "GL_DESCRIPTION": "Kosten werving en selectie",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4082",
+  "GL_DESCRIPTION": "Bedrijfskleding",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4090",
+  "GL_DESCRIPTION": "Overige personeelskosten",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4095",
+  "GL_DESCRIPTION": "onkosten vergoeding",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4099",
+  "GL_DESCRIPTION": "WKR",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4100",
+  "GL_DESCRIPTION": "Huur kantoor Amstelveen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4190",
+  "GL_DESCRIPTION": "Overige kantoorkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4200",
+  "GL_DESCRIPTION": "Exploitatiekosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4300",
+  "GL_DESCRIPTION": "Kantoorartikelen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4305",
+  "GL_DESCRIPTION": "Postverzending",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4310",
+  "GL_DESCRIPTION": "Telefoon- en internetkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4311",
+  "GL_DESCRIPTION": "Contact Centers",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4315",
+  "GL_DESCRIPTION": "Drukwerk",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4320",
+  "GL_DESCRIPTION": "Abonnementen algemeen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4321",
+  "GL_DESCRIPTION": "Abonnementen finance",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4322",
+  "GL_DESCRIPTION": "Abonnementen sales",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4323",
+  "GL_DESCRIPTION": "abonnementen logistiek",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4360",
+  "GL_DESCRIPTION": "Automatiseringskosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4390",
+  "GL_DESCRIPTION": "Overige kantoorkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4400",
+  "GL_DESCRIPTION": "Brandstofkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4405",
+  "GL_DESCRIPTION": "Onderhoud vervoersmiddelen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4410",
+  "GL_DESCRIPTION": "Verzekeringen vervoersmiddelen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4415",
+  "GL_DESCRIPTION": "Wegenbelasting",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4420",
+  "GL_DESCRIPTION": "Parkeerkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4425",
+  "GL_DESCRIPTION": "Huur vervoersmiddelen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4430",
+  "GL_DESCRIPTION": "Leasekosten Tesla Model 3 G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4431",
+  "GL_DESCRIPTION": "Leasekosten Mercedes C-350E HT-534-D",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4432",
+  "GL_DESCRIPTION": "Leasekosten BMW 1-Serie TV-513-B",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4490",
+  "GL_DESCRIPTION": "Overige autokosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4500",
+  "GL_DESCRIPTION": "Marketingkosten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4505",
+  "GL_DESCRIPTION": "Advertentiekosten Facebook",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4510",
+  "GL_DESCRIPTION": "Search Engine Optimization (SEO)",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4515",
+  "GL_DESCRIPTION": "Search Engine Advertising (SEA)",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4520",
+  "GL_DESCRIPTION": "Representatiekosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4521",
+  "GL_DESCRIPTION": "Representatiekosten - roald",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4525",
+  "GL_DESCRIPTION": "Websitekosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4530",
+  "GL_DESCRIPTION": " Commissies extern",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4540",
+  "GL_DESCRIPTION": "Incassokosten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4541",
+  "GL_DESCRIPTION": "Debtco Collection costs",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4545",
+  "GL_DESCRIPTION": "Reis- en verblijfkosten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4570",
+  "GL_DESCRIPTION": "Relatiegeschenken",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4575",
+  "GL_DESCRIPTION": "Giften/sponsoring",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4590",
+  "GL_DESCRIPTION": "Overige verkoopkosten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4595",
+  "GL_DESCRIPTION": "Mutatie voorziening dubieuze debiteuren",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4605",
+  "GL_DESCRIPTION": "Accountantskosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4610",
+  "GL_DESCRIPTION": "Juridische kosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4614",
+  "GL_DESCRIPTION": "Hiring Finance Staff",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4615",
+  "GL_DESCRIPTION": "Advieskosten",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4625",
+  "GL_DESCRIPTION": "Salarisadministratiekosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4630",
+  "GL_DESCRIPTION": "Verzekeringen algemeen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4635",
+  "GL_DESCRIPTION": "Verzekering schade uitkeringen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4639",
+  "GL_DESCRIPTION": "Kosten Betalingsverkeer Mollie",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4640",
+  "GL_DESCRIPTION": "Betalingsverschillen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4645",
+  "GL_DESCRIPTION": "Boetes Belastingdienst",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4690",
+  "GL_DESCRIPTION": "Overige algemene kosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4700",
+  "GL_DESCRIPTION": "Afschrijvingskosten immateriële vaste activa overig",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4705",
+  "GL_DESCRIPTION": "Afschrijvingskosten gebouwen",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4710",
+  "GL_DESCRIPTION": "Afschrijvingskosten verbouwingen",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4715",
+  "GL_DESCRIPTION": "Afschrijvingskosten transport en vervoermiddelen",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4720",
+  "GL_DESCRIPTION": "Afschrijvingskosten bedrijfsinventaris",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4725",
+  "GL_DESCRIPTION": "Afschrijvingskosten hardware",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4730",
+  "GL_DESCRIPTION": "Afschrijvingskosten software",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4735",
+  "GL_DESCRIPTION": "Afschrijvingskosten onderzoek en ontwikkeling",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4740",
+  "GL_DESCRIPTION": "Afschrijvingskosten IVA overig",
+  "ACCOUNT_TYPE": 122,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4760",
+  "GL_DESCRIPTION": "Afschrijving Dubieuze Debiteuren",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4761",
+  "GL_DESCRIPTION": "Ontvangsten uit afgeboekte debiteuren",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4762",
+  "GL_DESCRIPTION": "CIB BTW",
+  "ACCOUNT_TYPE": 24,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4900",
+  "GL_DESCRIPTION": "Opleidingskosten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4901",
+  "GL_DESCRIPTION": "Incasso verschillen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4902",
+  "GL_DESCRIPTION": "Huisvestingskosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4903",
+  "GL_DESCRIPTION": "Uitbesteed werk toegerekend",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4904",
+  "GL_DESCRIPTION": "Kostprijs verkopen",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4905",
+  "GL_DESCRIPTION": "Credit management",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4906",
+  "GL_DESCRIPTION": "Lokale Heffingen en belastingen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4907",
+  "GL_DESCRIPTION": "Onderhoud Pand Bodegraven",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4908",
+  "GL_DESCRIPTION": "Overige Huisvestingskosten Gouda",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4909",
+  "GL_DESCRIPTION": "Overige Huisvestingskosten Zoeterwoude",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4910",
+  "GL_DESCRIPTION": "Vakliteratuur",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4911",
+  "GL_DESCRIPTION": "Kleine aanschaffingen kantoor",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4912",
+  "GL_DESCRIPTION": "Automatiseringskosten (abonnementen)",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4913",
+  "GL_DESCRIPTION": "Verkeersboetes",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4914",
+  "GL_DESCRIPTION": "Vergader kosten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4915",
+  "GL_DESCRIPTION": "Design Verkoopkst",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4916",
+  "GL_DESCRIPTION": "Development Verkoopkst",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4917",
+  "GL_DESCRIPTION": "Content",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4918",
+  "GL_DESCRIPTION": "Advertising",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4919",
+  "GL_DESCRIPTION": "Management Marketing",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4920",
+  "GL_DESCRIPTION": "Lunches en Diners",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4921",
+  "GL_DESCRIPTION": "Rente en kosten Belastingdienst",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4922",
+  "GL_DESCRIPTION": "Juridische Kosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4923",
+  "GL_DESCRIPTION": "Bijzondere baten en lasten",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4924",
+  "GL_DESCRIPTION": "Valuta verschillen",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4925",
+  "GL_DESCRIPTION": "Verkoopkortingen",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4926",
+  "GL_DESCRIPTION": "Betaalautomaatkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4927",
+  "GL_DESCRIPTION": "Overige kosten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4928",
+  "GL_DESCRIPTION": "Resultaat correcties BTW aangifte",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4929",
+  "GL_DESCRIPTION": "Rekenverschillen",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4930",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4931",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4932",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4933",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4934",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4935",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4936",
+  "GL_DESCRIPTION": "Bruto loon",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4937",
+  "GL_DESCRIPTION": "Bijzondere beloningen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4938",
+  "GL_DESCRIPTION": "Bijzondere beloningen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4939",
+  "GL_DESCRIPTION": "Bijzondere beloningen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4940",
+  "GL_DESCRIPTION": "Kosten nettovergoedingen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4941",
+  "GL_DESCRIPTION": "Kosten nettovergoedingen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4942",
+  "GL_DESCRIPTION": "Kosten nettovergoedingen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4943",
+  "GL_DESCRIPTION": "Kosten nettovergoedingen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4944",
+  "GL_DESCRIPTION": "Kosten nettovergoedingen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4945",
+  "GL_DESCRIPTION": "Kosten nettovergoedingen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4946",
+  "GL_DESCRIPTION": "Kosten nettovergoedingen",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4947",
+  "GL_DESCRIPTION": "Kosten sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4948",
+  "GL_DESCRIPTION": "Kosten sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4949",
+  "GL_DESCRIPTION": "Kosten sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4950",
+  "GL_DESCRIPTION": "Kosten sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4951",
+  "GL_DESCRIPTION": "Kosten sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4952",
+  "GL_DESCRIPTION": "Kosten sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4953",
+  "GL_DESCRIPTION": "Kosten sociale premies werkgever",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4954",
+  "GL_DESCRIPTION": "Fee Commissarissen G Möller",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "4955",
+  "GL_DESCRIPTION": "Kosten vakantiegeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4956",
+  "GL_DESCRIPTION": "Kosten vakantiegeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4957",
+  "GL_DESCRIPTION": "Kosten vakantiegeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4958",
+  "GL_DESCRIPTION": "Kosten vakantiegeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4959",
+  "GL_DESCRIPTION": "Kosten vakantiegeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4960",
+  "GL_DESCRIPTION": "Kosten vakantiegeld",
+  "ACCOUNT_TYPE": 125,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4961",
+  "GL_DESCRIPTION": "Schoonmaakkosten Gouda",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4962",
+  "GL_DESCRIPTION": "Onderhoud Pand Gouda",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4963",
+  "GL_DESCRIPTION": "Verzekering",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4964",
+  "GL_DESCRIPTION": "Huisvestingskosten Keizersgracht",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4965",
+  "GL_DESCRIPTION": "Huisvestingskosten Gouda",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4966",
+  "GL_DESCRIPTION": "Kosten MyPos",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4967",
+  "GL_DESCRIPTION": "Verzekeringen Algemeen Gouda",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4968",
+  "GL_DESCRIPTION": "Verkeersboetes VX-902-J",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4969",
+  "GL_DESCRIPTION": "Verkeersboetes HT-534-D",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4970",
+  "GL_DESCRIPTION": "Verkeersboetes VS-647-V",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4971",
+  "GL_DESCRIPTION": "Verkeersboetes V-460-KN",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4972",
+  "GL_DESCRIPTION": "Prijsverschillen",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4973",
+  "GL_DESCRIPTION": "Debiteurenbeheer",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "4974",
+  "GL_DESCRIPTION": "Damages paid out",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "5000",
+  "GL_DESCRIPTION": "Moving Cost - Gouda",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7000",
+  "GL_DESCRIPTION": "Huur",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7001",
+  "GL_DESCRIPTION": "Huur Zoeterwoude",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7003",
+  "GL_DESCRIPTION": "Huur Bodegraven",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7004",
+  "GL_DESCRIPTION": "Servicekosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7005",
+  "GL_DESCRIPTION": "Afvalkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7006",
+  "GL_DESCRIPTION": "Nutsvoorzieningen",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7007",
+  "GL_DESCRIPTION": "Schoonmaakkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7008",
+  "GL_DESCRIPTION": "Onderhoud pand",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7009",
+  "GL_DESCRIPTION": "Overige huisvestingskosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7010",
+  "GL_DESCRIPTION": "Beveiligingskosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7020",
+  "GL_DESCRIPTION": "Inkoop verpakkingsmaterialen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7021",
+  "GL_DESCRIPTION": "Inkoop verhuizing",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7022",
+  "GL_DESCRIPTION": "Inkoop servicepakket / logistiek",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7030",
+  "GL_DESCRIPTION": "Inhuur personeel",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7031",
+  "GL_DESCRIPTION": "Uitbesteed werk toegerekend",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7035",
+  "GL_DESCRIPTION": "Insurance Storage - resale",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7040",
+  "GL_DESCRIPTION": "Verzekering brand",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7041",
+  "GL_DESCRIPTION": "Cyber Insurance",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7050",
+  "GL_DESCRIPTION": "Inhuur personeel logistiek",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7051",
+  "GL_DESCRIPTION": "Benodigheden logistiek",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7060",
+  "GL_DESCRIPTION": "Inkoop verhuislift",
+  "ACCOUNT_TYPE": 111,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7100",
+  "GL_DESCRIPTION": "Leasekosten Mercedes Sprinter VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7101",
+  "GL_DESCRIPTION": "Leasekosten VW Transporter VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7102",
+  "GL_DESCRIPTION": "Leasekosten Iveco V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7103",
+  "GL_DESCRIPTION": "Leasekosten Iveco V-493-ZL",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7104",
+  "GL_DESCRIPTION": "Leasekosten Iveco VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7105",
+  "GL_DESCRIPTION": "Leasekosten Iveco 85-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7106",
+  "GL_DESCRIPTION": "Leasekosten Iveco 83-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7107",
+  "GL_DESCRIPTION": "Leasekosten Iveco 40-BZJ-8",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7108",
+  "GL_DESCRIPTION": "Leasekosten Iveco 86-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7109",
+  "GL_DESCRIPTION": "Leasekosten Iveco 87-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7110",
+  "GL_DESCRIPTION": "Leasekosten R-982-FS",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7111",
+  "GL_DESCRIPTION": "Leasekosten 58-ZG-VD",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "71112",
+  "GL_DESCRIPTION": "Leasekosten  JN-726-T",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7120",
+  "GL_DESCRIPTION": "Brandstofkosten Mercedes Sprinter VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7121",
+  "GL_DESCRIPTION": "Brandstofkosten VW Transporter VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7122",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7123",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco V-493-ZL",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7124",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7130",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco VHH-50-K",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7131",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco 06-BNZ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7132",
+  "GL_DESCRIPTION": "Brandstofkosten Tesla G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7133",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco 85-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7134",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco 83-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7135",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco 40-BZJ-8",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7136",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco 86-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7137",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco 87-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7138",
+  "GL_DESCRIPTION": "Brandstofkosten R-982-FS",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7139",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco V-15-NJF",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7139.1",
+  "GL_DESCRIPTION": "Brandstofkosten 58-ZG-VD",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7139.2",
+  "GL_DESCRIPTION": "Brandstofkosten Iveco 83-GPN-1",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7139.3",
+  "GL_DESCRIPTION": "Brandstofkosten  66-HPD-9",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7139.4",
+  "GL_DESCRIPTION": "Brandstofkosten JN-726-T",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7140",
+  "GL_DESCRIPTION": "Overige autokosten Mercedes Sprinter VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7141",
+  "GL_DESCRIPTION": "Overige autokosten VW Transporter VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7142",
+  "GL_DESCRIPTION": "Overige autokosten Iveco V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7143",
+  "GL_DESCRIPTION": "Overige autokosten Iveco V-493-ZL",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7144",
+  "GL_DESCRIPTION": "Overige autokosten Iveco VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7150",
+  "GL_DESCRIPTION": "Overige autokosten Iveco VHH-50-K",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7151",
+  "GL_DESCRIPTION": "Overige autokosten Iveco 06-BNZ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7152",
+  "GL_DESCRIPTION": "Overige autokosten Iveco 85-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7153",
+  "GL_DESCRIPTION": "Overige autokosten Iveco 83-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7154",
+  "GL_DESCRIPTION": "Overige autokosten Iveco 40-BZJ-8",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7155",
+  "GL_DESCRIPTION": "Overige autokosten Iveco 86-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7156",
+  "GL_DESCRIPTION": "Overige autokosten Iveco 87-BZJ-7",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7157",
+  "GL_DESCRIPTION": "Overige autokosten R-982-FS",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7158",
+  "GL_DESCRIPTION": "Overige autokosten V-15-NJF",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7159",
+  "GL_DESCRIPTION": "Overige autokosten 58-ZG-VD",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7160",
+  "GL_DESCRIPTION": "Overige autokosten 83-GPN-1",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7161",
+  "GL_DESCRIPTION": "Overige autokosten  66-HPD-9",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7162",
+  "GL_DESCRIPTION": "Overige autokosten JN-726-T",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7190",
+  "GL_DESCRIPTION": "Overige autokosten overig",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7200",
+  "GL_DESCRIPTION": "Brutolonen [operatie]",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7201",
+  "GL_DESCRIPTION": "Bonussen [operatie]",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7204",
+  "GL_DESCRIPTION": "Vakantiegeld [operatie]",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7205",
+  "GL_DESCRIPTION": "Sociale lasten [operatie]",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7211",
+  "GL_DESCRIPTION": "Vakantiedagen [operatie]",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "7250",
+  "GL_DESCRIPTION": "Reiskosten [operatie]",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8000",
+  "GL_DESCRIPTION": "Opslagruimte particulier",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": "2  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8000.1",
+  "GL_DESCRIPTION": "Opslagruimte particulier_Initial",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": "2  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8001",
+  "GL_DESCRIPTION": "Opslagruimte business m3",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8001.1",
+  "GL_DESCRIPTION": "Opslagruimte business m3_Initial",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8002",
+  "GL_DESCRIPTION": "Opslagruimte business m2",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8002.1",
+  "GL_DESCRIPTION": "Opslagruimte business m2_Initial",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8009",
+  "GL_DESCRIPTION": "Pallet opslag",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "SALES",
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8011",
+  "GL_DESCRIPTION": "Verpakkingsmateriaal",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8020",
+  "GL_DESCRIPTION": "Service package Basis",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8021",
+  "GL_DESCRIPTION": "Omzet Zakelijk onbelast",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8022",
+  "GL_DESCRIPTION": "Servicepakket Basis Plus",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8025",
+  "GL_DESCRIPTION": "Omzet Zakelijk Korting belast",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8026",
+  "GL_DESCRIPTION": "Omzet Zakelijk Korting onbelast",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8030",
+  "GL_DESCRIPTION": "Omzet Zakelijk - GEVA",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8031",
+  "GL_DESCRIPTION": "Verhuizing premium",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8032",
+  "GL_DESCRIPTION": "Verhuizing deluxe",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8033",
+  "GL_DESCRIPTION": "servicekosten - zakelijk",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8035",
+  "GL_DESCRIPTION": "Omzet Zakelijk - GEVA - Korting",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8039",
+  "GL_DESCRIPTION": "Verhuizing door derden",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8040",
+  "GL_DESCRIPTION": "Security Package",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8045",
+  "GL_DESCRIPTION": "Omzet Non-Profit Korting",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8050",
+  "GL_DESCRIPTION": "Travel cost",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8051",
+  "GL_DESCRIPTION": "Surcharge for fuel",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8053",
+  "GL_DESCRIPTION": "Extra laadtijd logistiek",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8054",
+  "GL_DESCRIPTION": "transportkosten",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8060",
+  "GL_DESCRIPTION": "Verhuislift",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8061",
+  "GL_DESCRIPTION": "Verpakhulp",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8062",
+  "GL_DESCRIPTION": "(De-)montage",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8063",
+  "GL_DESCRIPTION": "Extra tussenstop",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8064",
+  "GL_DESCRIPTION": "Warehouse pickup",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "TRANS",
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8065",
+  "GL_DESCRIPTION": "Voorkeurstijden",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8070",
+  "GL_DESCRIPTION": "Correctie opslag particulier",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8071",
+  "GL_DESCRIPTION": "Correctie opslag zakelijk",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8072",
+  "GL_DESCRIPTION": "Correctie services",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8073",
+  "GL_DESCRIPTION": "Correctie vervoer",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8074",
+  "GL_DESCRIPTION": "Correctie overig (annuleringen e.d.)",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8075",
+  "GL_DESCRIPTION": "vrijval/release credit-notes > 90 days",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8080",
+  "GL_DESCRIPTION": "Korting opslag particulier",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8081",
+  "GL_DESCRIPTION": "Korting opslag zakelijk",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8082",
+  "GL_DESCRIPTION": "Korting services",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8083",
+  "GL_DESCRIPTION": "Korting vervoer",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8084",
+  "GL_DESCRIPTION": "Korting overig",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8089",
+  "GL_DESCRIPTION": "Korting activatie",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8090",
+  "GL_DESCRIPTION": "Overige verkoop",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8091",
+  "GL_DESCRIPTION": "Incassokosten Overdue",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8093",
+  "GL_DESCRIPTION": "Huuromzet Gouda",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8094",
+  "GL_DESCRIPTION": "Borg omzet Gouda",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8095",
+  "GL_DESCRIPTION": "Schade uitkering",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8096",
+  "GL_DESCRIPTION": "Verwijderen goederen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8097",
+  "GL_DESCRIPTION": "Kwijtschelding incassobureau omzet",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8098",
+  "GL_DESCRIPTION": "InControl uitval",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8099",
+  "GL_DESCRIPTION": "Buitengewone omzet",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "SALES",
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8400",
+  "GL_DESCRIPTION": "GAMMA - Opslagruimte",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8410",
+  "GL_DESCRIPTION": "GAMMA - Servicekosten - Doe het zelf",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8411",
+  "GL_DESCRIPTION": "GAMMA - Servicekosten - Doe het samen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8412",
+  "GL_DESCRIPTION": "GAMMA - Servicekosten - Doe het voor jou",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8420",
+  "GL_DESCRIPTION": "GAMMA - Pakket - Doe het zelf",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8421",
+  "GL_DESCRIPTION": "GAMMA - Pakket - Doe het samen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8422",
+  "GL_DESCRIPTION": "GAMMA - Pakket - Doe het voor jou",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8430",
+  "GL_DESCRIPTION": "GAMMA - Verhuisservice - Doe het zelf",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8431",
+  "GL_DESCRIPTION": "GAMMA - Verhuisservice - Doe het samen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8432",
+  "GL_DESCRIPTION": "GAMMA - Verhuisservice - Doe het voor jou",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8440",
+  "GL_DESCRIPTION": "GAMMA - Voorkeurstijden",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8441",
+  "GL_DESCRIPTION": "GAMMA - Extra verhuistijd",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8442",
+  "GL_DESCRIPTION": "GAMMA - Extra laadtijd",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8443",
+  "GL_DESCRIPTION": "Extra kosten demontage/montage",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8900",
+  "GL_DESCRIPTION": "Afboeking oninbare omzet",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8901",
+  "GL_DESCRIPTION": "borg verhuur",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "8902",
+  "GL_DESCRIPTION": "Opslagpakket - btw belast",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "SALES",
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8903",
+  "GL_DESCRIPTION": "Opslagpakket - btw onbelast",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8904",
+  "GL_DESCRIPTION": "overig verhuur",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8905",
+  "GL_DESCRIPTION": "Internet",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8906",
+  "GL_DESCRIPTION": "aanhangwagen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8907",
+  "GL_DESCRIPTION": "unit beveiliging (recur.)",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8908",
+  "GL_DESCRIPTION": "Gouda deposit revenue",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8909",
+  "GL_DESCRIPTION": "Opslagpakket 33-49m3",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8910",
+  "GL_DESCRIPTION": "Opslagpakket >50m3",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8911",
+  "GL_DESCRIPTION": "Verzekering - recurrig",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8912",
+  "GL_DESCRIPTION": "Verpakkingsmateriaal_block",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8913",
+  "GL_DESCRIPTION": "Verwijderen goederen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8914",
+  "GL_DESCRIPTION": "Verhuispakket - basis",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "TRANS",
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8915",
+  "GL_DESCRIPTION": "Verhuispakket - premium",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "SERVI",
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8916",
+  "GL_DESCRIPTION": "Verhuizen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8918",
+  "GL_DESCRIPTION": "Verhuizing door derden",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8919",
+  "GL_DESCRIPTION": "Verzekeringspakket",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "SERVI",
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8920",
+  "GL_DESCRIPTION": "Mutatie nog te factureren omzet",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8921",
+  "GL_DESCRIPTION": "Kantoor Huur",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8922",
+  "GL_DESCRIPTION": "Overige verhuur - belast",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8923",
+  "GL_DESCRIPTION": "Discounts & Corrections",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8924",
+  "GL_DESCRIPTION": "Verhuismaterialen",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8925",
+  "GL_DESCRIPTION": "Cilinderslot",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8926",
+  "GL_DESCRIPTION": "Administratiekosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8927",
+  "GL_DESCRIPTION": "Doorbelasting overtreding",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8928",
+  "GL_DESCRIPTION": "Verkoop diverse",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8929",
+  "GL_DESCRIPTION": "Toegangspas - huur",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8930",
+  "GL_DESCRIPTION": "Stellingverhuur",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8931",
+  "GL_DESCRIPTION": "Diverse huur",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8932",
+  "GL_DESCRIPTION": "Servicekosten IBC",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8933",
+  "GL_DESCRIPTION": "Overige Verkoop",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "SALES",
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8934",
+  "GL_DESCRIPTION": "overige verkoop",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8935",
+  "GL_DESCRIPTION": "Opslagpakket BTW vrij",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": "SERVI",
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "8936",
+  "GL_DESCRIPTION": "Opslagpakket",
+  "ACCOUNT_TYPE": 110,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9105",
+  "GL_DESCRIPTION": "Rentebaten",
+  "ACCOUNT_TYPE": 160,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9106",
+  "GL_DESCRIPTION": "rentekosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9106.1",
+  "GL_DESCRIPTION": "Rente lening Bridgefund",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9106.2",
+  "GL_DESCRIPTION": "Rente inzake incasso's",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9190",
+  "GL_DESCRIPTION": "Rente R/C R Snelleman",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9191",
+  "GL_DESCRIPTION": "rente R/C inbox (niet gebruiken!)",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9192",
+  "GL_DESCRIPTION": "Rente R/C group holding",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9193",
+  "GL_DESCRIPTION": "Rente R/C counter cut capital",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9194",
+  "GL_DESCRIPTION": "Rente R/C properties",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9195",
+  "GL_DESCRIPTION": "Rente R/C 54/11 mgmt",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9200",
+  "GL_DESCRIPTION": "Bankkosten",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9210",
+  "GL_DESCRIPTION": "Rente financial lease transport",
+  "ACCOUNT_TYPE": 160,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9211",
+  "GL_DESCRIPTION": "rente lease IVECO",
+  "ACCOUNT_TYPE": 160,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9212",
+  "GL_DESCRIPTION": "rente lease IVECO (big trucks)",
+  "ACCOUNT_TYPE": 160,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9240",
+  "GL_DESCRIPTION": "Rentelasten N. Snelleman eenmalig",
+  "ACCOUNT_TYPE": 160,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9260",
+  "GL_DESCRIPTION": "overige rentelasten",
+  "ACCOUNT_TYPE": 120,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9350",
+  "GL_DESCRIPTION": "Activa herwaarderingen resultaat",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9360",
+  "GL_DESCRIPTION": "Activa verkoop resultaat",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9365",
+  "GL_DESCRIPTION": "Activa afstoting resultaat",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9370",
+  "GL_DESCRIPTION": "Activa realisatie winst",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9375",
+  "GL_DESCRIPTION": "Activa realisatie verlies",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "942.2",
+  "GL_DESCRIPTION": "Hoofdsom per begin boekjaaR",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "942.3",
+  "GL_DESCRIPTION": "Aflossing boekjaar",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9500",
+  "GL_DESCRIPTION": "Buitengewone baten",
+  "ACCOUNT_TYPE": 140,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9600",
+  "GL_DESCRIPTION": "Buitengewone lasten",
+  "ACCOUNT_TYPE": 130,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9605",
+  "GL_DESCRIPTION": "Verhuizing Bodegraven->Waddinxveen",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9650",
+  "GL_DESCRIPTION": "Niet verrekenbare voorbelasting",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9651",
+  "GL_DESCRIPTION": "Suppletie voorbelasting",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9652",
+  "GL_DESCRIPTION": "BTW correctie",
+  "ACCOUNT_TYPE": 130,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9700",
+  "GL_DESCRIPTION": "Vennootschapsbelasting",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9705",
+  "GL_DESCRIPTION": "Vennootschapsbelasting voorgaande jaren",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9710",
+  "GL_DESCRIPTION": "Voorziening latente VPB",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9900",
+  "GL_DESCRIPTION": "Vennootschapsbelasting",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9900.1",
+  "GL_DESCRIPTION": " VPB huidig jaar",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "B",
+  "BALANCE_SIDE": "C",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9901",
+  "GL_DESCRIPTION": "Vennootschapsbelasting vorig jaar",
+  "ACCOUNT_TYPE": 90,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": false
+ },
+ {
+  "GL_CODE": "9955301",
+  "GL_DESCRIPTION": "Brandstofkosten VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955302",
+  "GL_DESCRIPTION": "Brandstofkosten HT-534-D",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955303",
+  "GL_DESCRIPTION": "Brandstofkosten VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955304",
+  "GL_DESCRIPTION": "Brandstofkosten V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955305",
+  "GL_DESCRIPTION": "Brandstofkosten JR-837-H",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955306",
+  "GL_DESCRIPTION": "Brandstofkosten 71-ZG-XZ",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955307",
+  "GL_DESCRIPTION": "Brandstofkosten VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955308",
+  "GL_DESCRIPTION": "Brandstofkosten G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955311",
+  "GL_DESCRIPTION": "Onderhoud Auto's VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955312",
+  "GL_DESCRIPTION": "Onderhoud Auto's HT-534-D",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955313",
+  "GL_DESCRIPTION": "Onderhoud Auto's VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955316",
+  "GL_DESCRIPTION": "Onderhoud Auto's G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955319",
+  "GL_DESCRIPTION": "Onderhoud VHH50K",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955322",
+  "GL_DESCRIPTION": "Verzekeringen HT-534-D",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955324",
+  "GL_DESCRIPTION": "Verzekeringen V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955325",
+  "GL_DESCRIPTION": "Verzekeringen TV-513-B",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955327",
+  "GL_DESCRIPTION": "Verzekeringen VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955328",
+  "GL_DESCRIPTION": "Verzekeringen G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955331",
+  "GL_DESCRIPTION": "Wegenbelasting VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955332",
+  "GL_DESCRIPTION": "Wegenbelasting HT-534-D",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955333",
+  "GL_DESCRIPTION": "Wegenbelasting VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955334",
+  "GL_DESCRIPTION": "Wegenbelasting V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955335",
+  "GL_DESCRIPTION": "Wegenbelasting VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955336",
+  "GL_DESCRIPTION": "Wegenbelasting G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955339",
+  "GL_DESCRIPTION": "Wegenbelasting VHH50K",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955341",
+  "GL_DESCRIPTION": "Parkeerkosten VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955342",
+  "GL_DESCRIPTION": "Parkeerkosten HT-534-D",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955343",
+  "GL_DESCRIPTION": "Parkeerkosten VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955344",
+  "GL_DESCRIPTION": "Parkeerkosten V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955345",
+  "GL_DESCRIPTION": "Parkeerkosten VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955346",
+  "GL_DESCRIPTION": "Parkeerkosten G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955361",
+  "GL_DESCRIPTION": "Overige Autokosten VX-902-J",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955362",
+  "GL_DESCRIPTION": "Overige Autokosten HT-534-D",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955363",
+  "GL_DESCRIPTION": "Overige Autokosten VS-647-V",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955364",
+  "GL_DESCRIPTION": "Overige Autokosten V-460-KN",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955365",
+  "GL_DESCRIPTION": "Overige Autokosten JR-837-H",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955366",
+  "GL_DESCRIPTION": "Overige Autokosten VDZ-93-N",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955367",
+  "GL_DESCRIPTION": "Overige Autokosten G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955369",
+  "GL_DESCRIPTION": "Overige Autokosten VHH50K",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ },
+ {
+  "GL_CODE": "9955388",
+  "GL_DESCRIPTION": "Leasekosten Iveco G-007-XB",
+  "ACCOUNT_TYPE": 121,
+  "BALANCE_TYPE": "W",
+  "BALANCE_SIDE": "D",
+  "DEFAULT_VAT_CODE": null,
+  "DEFAULT_COST_CENTER": null,
+  "IS_BLOCKED": true
+ }
+]

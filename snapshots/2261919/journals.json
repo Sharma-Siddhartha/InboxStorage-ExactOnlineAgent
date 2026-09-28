@@ -1,0 +1,77 @@
+[
+ {
+  "JOURNAL_CODE": "10",
+  "JOURNAL_DESCRIPTION": "Kasboek",
+  "JOURNAL_TYPE": 10
+ },
+ {
+  "JOURNAL_CODE": "20",
+  "JOURNAL_DESCRIPTION": "ABN #975 (AP)",
+  "JOURNAL_TYPE": 12
+ },
+ {
+  "JOURNAL_CODE": "21",
+  "JOURNAL_DESCRIPTION": "ABN #999 (AR)",
+  "JOURNAL_TYPE": 12
+ },
+ {
+  "JOURNAL_CODE": "22",
+  "JOURNAL_DESCRIPTION": "Mollie-Xcore",
+  "JOURNAL_TYPE": 12
+ },
+ {
+  "JOURNAL_CODE": "23",
+  "JOURNAL_DESCRIPTION": "ABN #492",
+  "JOURNAL_TYPE": 12
+ },
+ {
+  "JOURNAL_CODE": "60",
+  "JOURNAL_DESCRIPTION": "Inkoopboek",
+  "JOURNAL_TYPE": 22
+ },
+ {
+  "JOURNAL_CODE": "70",
+  "JOURNAL_DESCRIPTION": "Verkoopboek",
+  "JOURNAL_TYPE": 20
+ },
+ {
+  "JOURNAL_CODE": "80",
+  "JOURNAL_DESCRIPTION": "Memorial - Creditcard",
+  "JOURNAL_TYPE": 90
+ },
+ {
+  "JOURNAL_CODE": "90",
+  "JOURNAL_DESCRIPTION": "Memoriaal",
+  "JOURNAL_TYPE": 90
+ },
+ {
+  "JOURNAL_CODE": "91",
+  "JOURNAL_DESCRIPTION": "Memoriaal verkoop",
+  "JOURNAL_TYPE": 90
+ },
+ {
+  "JOURNAL_CODE": "92",
+  "JOURNAL_DESCRIPTION": "Memoriaal afletteren tussenrekeningen",
+  "JOURNAL_TYPE": 90
+ },
+ {
+  "JOURNAL_CODE": "93",
+  "JOURNAL_DESCRIPTION": "Memoriaal lonen",
+  "JOURNAL_TYPE": 90
+ },
+ {
+  "JOURNAL_CODE": "94",
+  "JOURNAL_DESCRIPTION": "Mollie",
+  "JOURNAL_TYPE": 16
+ },
+ {
+  "JOURNAL_CODE": "95",
+  "JOURNAL_DESCRIPTION": "Activamutaties",
+  "JOURNAL_TYPE": 90
+ },
+ {
+  "JOURNAL_CODE": "96",
+  "JOURNAL_DESCRIPTION": "Memoriaal resolve '8098 IC failure' issue",
+  "JOURNAL_TYPE": 90
+ }
+]
