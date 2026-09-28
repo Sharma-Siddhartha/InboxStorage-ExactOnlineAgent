@@ -1,5 +1,5 @@
 # Thresholds and switches. Owner: finance owner. Values marked TBD are decisions from section 11.
-dict_version: 2
+dict_version: 3
 settings:
   materiality_receivable_eur: TBD        # decision 11.3 (suggest e.g. 250)
   materiality_receivable_days: TBD       # decision 11.3 (suggest e.g. 60)
@@ -7,7 +7,7 @@ settings:
   credit_balance_refund_days: 30         # decision 11.12
   suspense_max_days: 30
   unmatched_bank_max_days: 14
-  unposted_max_days: 5
+  unprocessed_year_max_months: 6         # R001: a year still at status 20 this long after year end is a finding (proposal)
   standard_payment_terms: [TBD]          # payment condition codes considered standard
   reporting_scheme_id: TBD               # decision 11.16 (RGS or accountant's scheme)
   suspense_gl_codes: [TBD]

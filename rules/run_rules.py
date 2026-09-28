@@ -50,23 +50,28 @@ def main():
         cur.execute(header + sql)
         qid = cur.sfqid
         rows = cur.fetchall()
-        seen = set()
+        # all findings of a rule in one statement (row-by-row inserts took ~0.4 s each)
+        batch, seen = [], set()
         for otype, oid, div, amt, metric in rows:
             k = key(r["id"], otype, oid, div); seen.add(k)
-            cur.execute("""INSERT INTO PLATFORM.AGENT_OPS.FINDINGS (FINDING_KEY, RUN_ID, STEP_ID, AGENT, RULE_ID, RULE_VERSION, SEVERITY,
-                           OBJECT_TYPE, OBJECT_ID, DIVISION, AMOUNT_EUR, METRIC, STATUS, EVIDENCE_QUERY_ID)
-                           SELECT %s,%s,%s,'exact',%s,%s,%s,%s,%s,%s,%s,PARSE_JSON(%s),'open',%s""",
-                        (k, a.run_id, a.step_id, r["id"], r["version"], r["severity"], otype, str(oid), div, amt,
-                         metric if isinstance(metric, str) else json.dumps(metric), qid))
-        # close findings of this rule that were open and are no longer produced
-        cur.execute("""SELECT FINDING_KEY, OBJECT_TYPE, OBJECT_ID, DIVISION FROM PLATFORM.AGENT_OPS.FINDINGS_CURRENT
-                       WHERE AGENT='exact' AND RULE_ID=%s AND STATUS='open'""", (r["id"],))
-        closed = 0
-        for k, otype, oid, div in cur.fetchall():
-            if k not in seen:
-                cur.execute("""INSERT INTO PLATFORM.AGENT_OPS.FINDINGS (FINDING_KEY, RUN_ID, STEP_ID, AGENT, RULE_ID, RULE_VERSION,
-                               SEVERITY, OBJECT_TYPE, OBJECT_ID, DIVISION, STATUS) VALUES (%s,%s,%s,'exact',%s,%s,%s,%s,%s,%s,'resolved')""",
-                            (k, a.run_id, a.step_id, r["id"], r["version"], r["severity"], otype, oid, div)); closed += 1
+            batch.append({"k": k, "ot": otype, "oi": str(oid), "d": div, "a": float(amt) if amt is not None else None,
+                          "m": json.loads(metric) if isinstance(metric, str) else metric})
+        if batch:
+            cur.execute(header + """INSERT INTO PLATFORM.AGENT_OPS.FINDINGS (FINDING_KEY, RUN_ID, STEP_ID, AGENT, RULE_ID, RULE_VERSION,
+                           SEVERITY, OBJECT_TYPE, OBJECT_ID, DIVISION, AMOUNT_EUR, METRIC, STATUS, EVIDENCE_QUERY_ID)
+                           SELECT f.value:k::STRING, %s, %s, 'exact', %s, %s, %s, f.value:ot::STRING, f.value:oi::STRING,
+                                  f.value:d::STRING, f.value:a::NUMBER(18,2), f.value:m, 'open', %s
+                           FROM TABLE(FLATTEN(INPUT => PARSE_JSON(%s))) f""",
+                        (a.run_id, a.step_id, r["id"], r["version"], r["severity"], qid, json.dumps(batch, default=str)))
+        # close this rule's open findings that were not produced today, also in one statement
+        cur.execute(header + """INSERT INTO PLATFORM.AGENT_OPS.FINDINGS (FINDING_KEY, RUN_ID, STEP_ID, AGENT, RULE_ID, RULE_VERSION,
+                       SEVERITY, OBJECT_TYPE, OBJECT_ID, DIVISION, STATUS)
+                       SELECT c.FINDING_KEY, %s, %s, 'exact', c.RULE_ID, %s, c.SEVERITY, c.OBJECT_TYPE, c.OBJECT_ID, c.DIVISION, 'resolved'
+                       FROM PLATFORM.AGENT_OPS.FINDINGS_CURRENT c
+                       WHERE c.AGENT = 'exact' AND c.RULE_ID = %s AND c.STATUS = 'open'
+                         AND c.FINDING_KEY NOT IN (SELECT VALUE::STRING FROM TABLE(FLATTEN(INPUT => PARSE_JSON(%s))))""",
+                    (a.run_id, a.step_id, r["version"], r["id"], json.dumps(sorted(seen))))
+        closed = cur.rowcount
         report["evaluated"].append({"rule": r["id"], "version": r["version"], "open": len(rows), "resolved": closed})
     print(json.dumps(report, indent=1))
 

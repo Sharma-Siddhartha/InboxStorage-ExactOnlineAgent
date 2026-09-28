@@ -1,15 +1,20 @@
 id: R001
-version: 2
+version: 3
 monitor: exact-hygiene-monitor
-title: Unposted or draft entries older than the agreed number of days
+title: Financial year still unprocessed (entries at status 20) too long after year end
 owner: finance_owner
 severity: medium
-threshold: {setting: unposted_max_days}
+threshold: {setting: unprocessed_year_max_months}
+notes: >
+  v2 flagged every entry with status 20, but in this administration status 20 (entered) is
+  normal for every entry of an open year: 2025 and 2026 are entirely status 20, 2007-2024 status 50
+  (processed). So the rule now works per financial year: one finding per year that is still
+  unprocessed more than N months after its year end. Drafts are not in TransactionLines at all.
 sql: |
-  SELECT 'entry' AS OBJECT_TYPE, ENTRY_ID AS OBJECT_ID, DIVISION,
-         SUM(ABS(AMOUNT_EUR)) / 2 AS AMOUNT_EUR,
-         OBJECT_CONSTRUCT('journal', ANY_VALUE(JOURNAL_CODE), 'age_days', DATEDIFF(day, MIN(CREATED_AT), CURRENT_DATE())) AS METRIC
+  SELECT 'fin_year' AS OBJECT_TYPE, FIN_YEAR::STRING AS OBJECT_ID, DIVISION, NULL AS AMOUNT_EUR,
+         OBJECT_CONSTRUCT('unprocessed_entries', COUNT(DISTINCT ENTRY_ID), 'lines', COUNT(*),
+                          'months_after_year_end', DATEDIFF(month, DATE_FROM_PARTS(FIN_YEAR, 12, 31), CURRENT_DATE())) AS METRIC
   FROM EXACT.CORE.TRANSACTION_LINES
-  WHERE STATUS <> 50      -- 50 = processed, 20 = entered (verified against the Exact schema)
-  GROUP BY ENTRY_ID, DIVISION
-  HAVING DATEDIFF(day, MIN(CREATED_AT), CURRENT_DATE()) > {unposted_max_days}
+  WHERE STATUS = 20
+    AND DATEDIFF(month, DATE_FROM_PARTS(FIN_YEAR, 12, 31), CURRENT_DATE()) > {unprocessed_year_max_months}
+  GROUP BY FIN_YEAR, DIVISION
