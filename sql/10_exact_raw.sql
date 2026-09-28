@@ -22,7 +22,12 @@ CREATE TABLE IF NOT EXISTS EXACT.RAW.SYNC_STATE (     -- one cursor per division
   RUN_ID     STRING
 );
 
-CREATE TABLE IF NOT EXISTS EXACT.RAW.DELETED (        -- from sync/Deleted: records removed in Exact
-  DIVISION STRING, ENTITY_TYPE NUMBER, ENTITY_KEY STRING, DELETED_AT TIMESTAMP_TZ,
-  EXACT_TS NUMBER, LOADED_AT TIMESTAMP_TZ DEFAULT CURRENT_TIMESTAMP(), RUN_ID STRING
+-- EXACT.RAW.DELETED (sync/Deleted) uses the standard template above; the loader creates it.
+-- PAYLOAD:EntityKey = the deleted record's ID, PAYLOAD:EntityType = what kind of record it was.
+
+-- The classification endpoint is disabled until its fields are confirmed; the table exists so
+-- the CORE views that reference it compile.
+CREATE TABLE IF NOT EXISTS EXACT.RAW.GL_ACCOUNT_CLASSIFICATION_MAPPINGS (
+  DIVISION STRING NOT NULL, ID STRING NOT NULL, EXACT_TS NUMBER, RECORD_HASH STRING NOT NULL,
+  PAYLOAD VARIANT NOT NULL, LOADED_AT TIMESTAMP_TZ NOT NULL DEFAULT CURRENT_TIMESTAMP(), RUN_ID STRING NOT NULL
 );

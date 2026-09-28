@@ -31,18 +31,19 @@ entities:
     fields: [ID, Timestamp, Code, IsSupplier, Status, PaymentConditionSales, PaymentConditionPurchase, Blocked, Created, Modified]
     fingerprint: {Name: NAME_FP, VATNumber: VAT_FP, ChamberOfCommerce: COC_FP}
   BANK_ACCOUNTS:                    # supplier bank details: fingerprints only, never the number
-    path: cashflow/BankAccounts
+    path: crm/BankAccounts            # (cashflow/BankAccounts returned 404)
     mode: full
     phase: 1
     fields: [ID, Account, Modified]
     fingerprint: {BankAccount: BANK_FP}
   VAT_CODES:          {path: vat/VATCodes,           mode: full, phase: 1, fields: [ID, Code, Description, Percentage, Type, IsBlocked, GLToPay, GLToClaim, Modified]}
-  JOURNALS:           {path: financial/Journals,     mode: full, phase: 1, fields: [ID, Code, Description, Type, GLAccount, SuspenseGLAccount, Modified]}
+  JOURNALS:           {path: financial/Journals,     mode: full, phase: 1, fields: [ID, Code, Description, Type, GLAccount, Modified]}   # no SuspenseGLAccount on this endpoint
   COST_CENTERS:       {path: hrm/Costcenters,        mode: full, phase: 1, fields: [ID, Code, Description, Active, Modified]}
   COST_UNITS:         {path: hrm/Costunits,          mode: full, phase: 1, fields: [ID, Code, Description, Modified]}
   PAYMENT_CONDITIONS: {path: cashflow/PaymentConditions, mode: full, phase: 1, fields: [ID, Code, Description, PaymentDays, Modified]}
   FINANCIAL_PERIODS:  {path: financial/FinancialPeriods, mode: full, phase: 1, fields: [ID, FinYear, FinPeriod, StartDate, EndDate]}
   ITEMS:              {path: sync/Logistics/Items,   mode: sync, phase: 1, fields: [ID, Timestamp, Code, Description, GLRevenue, GLCosts, IsSalesItem, Modified]}
+  # 403 Forbidden on first run: the logged-in Exact user needs rights to view receivables/payables
   RECEIVABLES_LIST:   {path: read/financial/ReceivablesList, mode: full, phase: 1, id_field: HID,
                        fields: [HID, AccountCode, InvoiceNumber, InvoiceDate, DueDate, Amount, JournalCode, EntryNumber]}
   PAYABLES_LIST:      {path: read/financial/PayablesList,    mode: full, phase: 1, id_field: HID,
