@@ -1,0 +1,10 @@
+name: exact-supplier-change-watch
+group: monitor
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.core.master
+- exact.core
+writes:
+- ops.findings.supplier

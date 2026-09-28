@@ -1,0 +1,12 @@
+name: exact-setup-monitor
+group: monitor
+phase: 2
+status: active
+runner: etl
+reads:
+- exact.core.master
+- exact.core
+- exact.governance
+writes:
+- ops.findings.setup
+- exact.core.gl_usage

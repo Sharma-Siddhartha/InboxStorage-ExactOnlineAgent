@@ -1,0 +1,17 @@
+name: exact-reconciliation
+group: decision
+phase: 5
+status: planned
+runner: claude
+reads:
+- exact.core
+- ops.messages.in
+writes:
+- ops.messages.out
+- ops.findings.reconciliation
+offers:
+- finance.reconcile
+uses:
+- crm.won_deals
+- workforce.hours
+- logistics.job_volumes

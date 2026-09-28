@@ -1,0 +1,11 @@
+name: exact-billing-reconciliation
+group: decision
+phase: 5
+status: planned
+runner: claude
+reads:
+- exact.core
+writes:
+- ops.findings.billing
+uses:
+- billing.invoiced_totals

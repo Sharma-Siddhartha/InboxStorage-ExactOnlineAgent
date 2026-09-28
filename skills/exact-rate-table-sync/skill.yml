@@ -1,0 +1,9 @@
+name: exact-rate-table-sync
+group: foundation
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.api
+writes:
+- exact.raw.rates

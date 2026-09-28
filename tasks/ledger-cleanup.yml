@@ -1,0 +1,6 @@
+task: ledger-cleanup
+schedule: "first Monday of each quarter, and 1 December, 09:00 Europe/Amsterdam"
+runner: mixed
+steps:
+  - {skill: exact-setup-monitor, runner: etl}            # refreshes usage evidence
+  - {skill: exact-ledger-cleanup-advisor, runner: claude, requires: exact-setup-monitor}

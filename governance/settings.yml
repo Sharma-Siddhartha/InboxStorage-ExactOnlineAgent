@@ -1,0 +1,20 @@
+# Thresholds and switches. Owner: finance owner. Values marked TBD are decisions from section 11.
+dict_version: 1
+settings:
+  materiality_receivable_eur: TBD        # decision 11.3 (suggest e.g. 250)
+  materiality_receivable_days: TBD       # decision 11.3 (suggest e.g. 60)
+  unused_months: 24                      # decision 11.4
+  credit_balance_refund_days: 30         # decision 11.12
+  suspense_max_days: 30
+  unmatched_bank_max_days: 14
+  unposted_max_days: 5
+  standard_payment_terms: [TBD]          # payment condition codes considered standard
+  reporting_scheme_id: TBD               # decision 11.16 (RGS or accountant's scheme)
+  suspense_gl_codes: [TBD]
+  cost_center_required_types: [120, 121] # cost accounts that must carry a cost centre
+  closing_entry_types: [TBD]             # [VERIFY] TransactionLines.Type used for year-end closing entries.
+  # Verification query:
+  #   SELECT TRANSACTION_TYPE, FIN_PERIOD, COUNT(*) FROM EXACT.CORE.TRANSACTION_LINES
+  #   WHERE FIN_YEAR = 2024 GROUP BY 1,2 ORDER BY 3 DESC;
+  # Closing entries appear once per year, on (nearly) every P&L account, in the last period.
+  wage_gl_codes: [TBD]                   # loader strips descriptions on these

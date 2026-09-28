@@ -1,0 +1,16 @@
+name: exact-query-desk
+group: decision
+phase: 3
+status: active
+runner: claude
+reads:
+- exact.core
+- exact.governance
+- ops.messages.in
+writes:
+- ops.messages.out
+offers:
+- finance.lookup
+- finance.revenue_posted
+- finance.wage_cost
+- finance.cost_by_account

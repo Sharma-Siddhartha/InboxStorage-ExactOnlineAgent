@@ -1,0 +1,16 @@
+id: R009
+version: 1
+monitor: exact-bank-reconciliation-monitor
+title: Bank lines not matched after the agreed number of days
+owner: bookkeeper
+severity: medium
+threshold: {setting: unmatched_bank_max_days}
+status: draft   # [VERIFY] unmatched bank lines = open items on bank journals without match; confirm with the bookkeeper
+sql: |
+  SELECT 'transaction_line', l.LINE_ID, l.DIVISION, l.AMOUNT_EUR,
+         OBJECT_CONSTRUCT('journal', l.JOURNAL_CODE, 'age_days', DATEDIFF(day, l.POSTING_DATE, CURRENT_DATE())) AS METRIC
+  FROM EXACT.CORE.TRANSACTION_LINES l
+  JOIN EXACT.CORE.JOURNALS j ON j.DIVISION = l.DIVISION AND j.JOURNAL_CODE = l.JOURNAL_CODE
+  WHERE j.JOURNAL_TYPE = 12   -- [VERIFY] bank journal type
+    AND l.GL_CODE IN ({suspense_gl_codes})
+    AND DATEDIFF(day, l.POSTING_DATE, CURRENT_DATE()) > {unmatched_bank_max_days}

@@ -1,0 +1,15 @@
+id: R004
+version: 1
+monitor: exact-hygiene-monitor
+title: Cost postings without a cost centre where one is required
+owner: finance_owner
+severity: low
+threshold: {setting: cost_center_required_types}
+sql: |
+  SELECT 'group' AS OBJECT_TYPE, l.GL_CODE AS OBJECT_ID, l.DIVISION, SUM(l.AMOUNT_EUR) AS AMOUNT_EUR,
+         OBJECT_CONSTRUCT('lines', COUNT(*), 'period', MAX(l.FIN_YEAR * 100 + l.FIN_PERIOD)) AS METRIC
+  FROM EXACT.CORE.TRANSACTION_LINES l
+  JOIN EXACT.CORE.GL_ACCOUNTS a ON a.DIVISION = l.DIVISION AND a.GL_CODE = l.GL_CODE
+  WHERE a.ACCOUNT_TYPE IN ({cost_center_required_types}) AND l.COST_CENTER IS NULL
+    AND l.POSTING_DATE >= DATEADD(day, -35, CURRENT_DATE())
+  GROUP BY l.DIVISION, l.GL_CODE

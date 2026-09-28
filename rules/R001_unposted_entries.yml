@@ -1,0 +1,16 @@
+id: R001
+version: 1
+monitor: exact-hygiene-monitor
+title: Unposted or draft entries older than the agreed number of days
+owner: finance_owner
+severity: medium
+threshold: {setting: unposted_max_days}
+status: draft   # [VERIFY] draft/processed status codes on TransactionLines after first load
+sql: |
+  SELECT 'entry' AS OBJECT_TYPE, ENTRY_ID AS OBJECT_ID, DIVISION,
+         SUM(ABS(AMOUNT_EUR)) / 2 AS AMOUNT_EUR,
+         OBJECT_CONSTRUCT('journal', ANY_VALUE(JOURNAL_CODE), 'age_days', DATEDIFF(day, MIN(CREATED_AT), CURRENT_DATE())) AS METRIC
+  FROM EXACT.CORE.TRANSACTION_LINES
+  WHERE STATUS <> 20      -- [VERIFY] 20 assumed = processed
+  GROUP BY ENTRY_ID, DIVISION
+  HAVING DATEDIFF(day, MIN(CREATED_AT), CURRENT_DATE()) > {unposted_max_days}

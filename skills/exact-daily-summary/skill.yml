@@ -1,0 +1,16 @@
+name: exact-daily-summary
+group: decision
+phase: 3
+status: active
+runner: claude
+reads:
+- ops.runs
+writes:
+- slack.summary
+optional_reads:
+- ops.decisions
+- ops.change_requests
+- ops.findings.hygiene
+- ops.findings.setup
+- ops.findings.aging
+- ops.findings.bank

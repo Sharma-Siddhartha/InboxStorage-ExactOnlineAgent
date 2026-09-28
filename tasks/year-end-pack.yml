@@ -1,0 +1,6 @@
+task: year-end-pack
+schedule: "manual, after the last period of the year is closed"
+runner: claude
+phase: 6
+steps:
+  - {skill: exact-accountant-pack}

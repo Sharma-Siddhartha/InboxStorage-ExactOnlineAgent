@@ -1,0 +1,13 @@
+name: exact-accountant-pack
+group: analysis
+phase: 6
+status: planned
+runner: claude
+reads:
+- exact.core
+- repo.snapshots
+writes:
+- reports.accountant_pack
+optional_reads:
+- ops.findings.bank
+- ops.change_requests

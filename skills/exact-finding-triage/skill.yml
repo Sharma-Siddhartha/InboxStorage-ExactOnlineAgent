@@ -1,0 +1,24 @@
+name: exact-finding-triage
+group: decision
+phase: 3
+status: active
+runner: claude
+reads:
+- exact.core
+- exact.governance
+writes:
+- ops.decisions
+- ops.messages.out
+optional_reads:
+- ops.findings.hygiene
+- ops.findings.setup
+- ops.findings.aging
+- ops.findings.bank
+- ops.findings.close
+- ops.findings.duplicates
+- ops.findings.matches
+- ops.findings.credit
+- ops.findings.supplier
+- ops.findings.documents
+- ops.findings.fx
+- ops.findings.anomaly

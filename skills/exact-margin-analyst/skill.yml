@@ -1,0 +1,10 @@
+name: exact-margin-analyst
+group: analysis
+phase: 4
+status: planned
+runner: claude
+reads:
+- exact.core
+- exact.governance
+writes:
+- reports.margin

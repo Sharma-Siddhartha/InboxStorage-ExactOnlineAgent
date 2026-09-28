@@ -1,0 +1,8 @@
+task: weekly-forecast
+schedule: "Mondays 08:00 Europe/Amsterdam"
+runner: claude
+phase: 4
+steps:
+  - {skill: exact-cashflow-forecaster}
+  - {skill: exact-margin-analyst, after: exact-cashflow-forecaster}
+  - {skill: exact-benchmark-tracker, after: exact-margin-analyst, phase: 6}

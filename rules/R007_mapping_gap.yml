@@ -1,0 +1,12 @@
+id: R007
+version: 1
+monitor: exact-setup-monitor
+title: Active GL account not mapped in the reporting scheme
+owner: finance_owner
+severity: high
+threshold: {setting: reporting_scheme_id}
+sql: |
+  SELECT 'gl_account' AS OBJECT_TYPE, GL_CODE AS OBJECT_ID, DIVISION, BALANCE_EUR AS AMOUNT_EUR,
+         OBJECT_CONSTRUCT('last_posting', LAST_POSTING, 'type', ACCOUNT_TYPE) AS METRIC
+  FROM EXACT.CORE.GL_USAGE
+  WHERE NOT IS_MAPPED AND NOT COALESCE(IS_BLOCKED, FALSE)

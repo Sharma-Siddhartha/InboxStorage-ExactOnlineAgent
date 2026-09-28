@@ -1,0 +1,21 @@
+id: R006
+version: 1
+monitor: exact-setup-monitor
+title: New or changed GL account, VAT code or journal since the last load
+owner: finance_owner
+severity: info
+threshold: null
+notes: The nightly git diff of snapshots/ shows the field-level detail; this rule makes it a tracked finding.
+sql: |
+  WITH v AS (
+    SELECT 'gl_account' AS T, DIVISION, ID, PAYLOAD:Code::STRING AS CODE, LOADED_AT FROM EXACT.RAW.GL_ACCOUNTS
+    UNION ALL SELECT 'vat_code', DIVISION, ID, PAYLOAD:Code::STRING, LOADED_AT FROM EXACT.RAW.VAT_CODES
+    UNION ALL SELECT 'journal',  DIVISION, ID, PAYLOAD:Code::STRING, LOADED_AT FROM EXACT.RAW.JOURNALS),
+  first_load AS (SELECT T, MIN(LOADED_AT) AS FL FROM v GROUP BY T),
+  recent AS (SELECT * FROM v WHERE LOADED_AT >= DATEADD(hour, -26, CURRENT_TIMESTAMP())),
+  earlier AS (SELECT T, DIVISION, ID, COUNT(*) AS N FROM v WHERE LOADED_AT < DATEADD(hour, -26, CURRENT_TIMESTAMP()) GROUP BY 1,2,3)
+  SELECT r.T AS OBJECT_TYPE, r.CODE AS OBJECT_ID, r.DIVISION, NULL AS AMOUNT_EUR,
+         OBJECT_CONSTRUCT('change', IFF(e.N IS NULL, 'new', 'changed')) AS METRIC
+  FROM recent r
+  JOIN first_load f ON f.T = r.T AND f.FL < DATEADD(hour, -26, CURRENT_TIMESTAMP())   -- skip the very first load
+  LEFT JOIN earlier e ON e.T = r.T AND e.DIVISION = r.DIVISION AND e.ID = r.ID

@@ -1,0 +1,10 @@
+name: exact-vat-compliance-checker
+group: analysis
+phase: 4
+status: planned
+runner: claude
+reads:
+- exact.core
+- exact.governance
+writes:
+- ops.findings.vat

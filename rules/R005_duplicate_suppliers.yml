@@ -1,0 +1,23 @@
+id: R005
+version: 1
+monitor: exact-hygiene-monitor
+title: Duplicate supplier records (same VAT number, KvK number, bank account or name)
+owner: finance_owner
+severity: medium
+threshold: null
+notes: Compares fingerprints only; names and numbers never leave Exact.
+sql: |
+  SELECT 'group' AS OBJECT_TYPE, KIND || ':' || FP AS OBJECT_ID, DIVISION, NULL AS AMOUNT_EUR,
+         OBJECT_CONSTRUCT('match_on', KIND, 'supplier_codes', ARRAY_AGG(CUSTOMER_CODE)) AS METRIC
+  FROM (
+    SELECT r.DIVISION, r.CUSTOMER_CODE, k.KIND, k.FP
+    FROM EXACT.CORE.RELATIONS r,
+      LATERAL (SELECT 'vat' KIND, r.VAT_FP FP UNION ALL SELECT 'coc', r.COC_FP UNION ALL SELECT 'name', r.NAME_FP) k
+    WHERE r.IS_SUPPLIER AND NOT COALESCE(r.IS_BLOCKED, FALSE) AND k.FP IS NOT NULL
+    UNION ALL
+    SELECT b.DIVISION, r.CUSTOMER_CODE, 'bank', b.BANK_FP
+    FROM EXACT.CORE.SUPPLIER_BANK_CHANGES b JOIN EXACT.CORE.RELATIONS r ON r.RELATION_ID = b.RELATION_ID AND r.DIVISION = b.DIVISION
+    WHERE r.IS_SUPPLIER
+  )
+  GROUP BY DIVISION, KIND, FP
+  HAVING COUNT(DISTINCT CUSTOMER_CODE) > 1

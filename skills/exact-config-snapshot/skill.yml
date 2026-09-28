@@ -1,0 +1,9 @@
+name: exact-config-snapshot
+group: foundation
+phase: 1
+status: active
+runner: etl
+reads:
+- exact.core
+writes:
+- repo.snapshots

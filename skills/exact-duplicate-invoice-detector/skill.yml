@@ -1,0 +1,9 @@
+name: exact-duplicate-invoice-detector
+group: monitor
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.core
+writes:
+- ops.findings.duplicates

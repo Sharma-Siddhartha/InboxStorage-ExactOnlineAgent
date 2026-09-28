@@ -1,0 +1,55 @@
+# What the loader reads from Exact, and which fields may leave Exact (the field allowlist).
+# mode: sync = incremental on Timestamp (sync endpoints) | full = small list, full refresh nightly
+# fingerprint: fields replaced by an HMAC fingerprint (<FIELD>_FP) before anything is stored.
+# Endpoints marked verify: true need a check against the live administration on first run.
+defaults: {page_size: 1000}
+entities:
+  TRANSACTION_LINES:
+    path: sync/Financial/TransactionLines
+    mode: sync
+    phase: 1
+    fields: [ID, Timestamp, EntryID, EntryNumber, LineNumber, Date, FinancialYear, FinancialPeriod,
+             JournalCode, Type, GLAccountCode, AccountCode, AmountDC, AmountVATDC, VATCode,
+             CostCenter, CostUnit, InvoiceNumber, DueDate, Status, Description, Created]
+    wage_strip: [Description, AccountCode]   # on wage_gl_codes (governance/settings.yml)
+  GL_ACCOUNTS:
+    path: sync/Financial/GLAccounts
+    mode: sync
+    phase: 1
+    fields: [ID, Timestamp, Code, Description, Type, BalanceType, BalanceSide, VATCode, Costcenter, Costunit, IsBlocked, Created, Modified]
+  GL_ACCOUNT_CLASSIFICATION_MAPPINGS:
+    path: financial/GLAccountClassificationMappings
+    mode: full
+    phase: 1
+    verify: true
+    fields: [ID, GLAccount, Classification, GLScheme]
+  ACCOUNTS:                         # customers and suppliers: codes and terms only
+    path: sync/CRM/Accounts
+    mode: sync
+    phase: 1
+    fields: [ID, Timestamp, Code, IsSupplier, Status, PaymentConditionSales, PaymentConditionPurchase, Blocked, Created, Modified]
+    fingerprint: {Name: NAME_FP, VATNumber: VAT_FP, ChamberOfCommerce: COC_FP}
+  BANK_ACCOUNTS:                    # supplier bank details: fingerprints only, never the number
+    path: cashflow/BankAccounts
+    mode: full
+    phase: 1
+    fields: [ID, Account, Modified]
+    fingerprint: {BankAccount: BANK_FP}
+  VAT_CODES:          {path: vat/VATCodes,           mode: full, phase: 1, fields: [ID, Code, Description, Percentage, Type, IsBlocked, GLToPay, GLToClaim, Modified]}
+  JOURNALS:           {path: financial/Journals,     mode: full, phase: 1, fields: [ID, Code, Description, Type, GLAccount, SuspenseGLAccount, Modified]}
+  COST_CENTERS:       {path: hrm/Costcenters,        mode: full, phase: 1, fields: [ID, Code, Description, Active, Modified]}
+  COST_UNITS:         {path: hrm/Costunits,          mode: full, phase: 1, fields: [ID, Code, Description, Modified]}
+  PAYMENT_CONDITIONS: {path: cashflow/PaymentConditions, mode: full, phase: 1, fields: [ID, Code, Description, PaymentDays, Modified]}
+  FINANCIAL_PERIODS:  {path: financial/FinancialPeriods, mode: full, phase: 1, fields: [ID, FinYear, FinPeriod, StartDate, EndDate]}
+  ITEMS:              {path: sync/Logistics/Items,   mode: sync, phase: 1, fields: [ID, Timestamp, Code, Description, GLRevenue, GLCosts, IsSalesItem, Modified]}
+  RECEIVABLES_LIST:   {path: read/financial/ReceivablesList, mode: full, phase: 1, id_field: HID,
+                       fields: [HID, AccountCode, InvoiceNumber, InvoiceDate, DueDate, Amount, JournalCode, EntryNumber]}
+  PAYABLES_LIST:      {path: read/financial/PayablesList,    mode: full, phase: 1, id_field: HID,
+                       fields: [HID, AccountCode, InvoiceNumber, InvoiceDate, DueDate, Amount, JournalCode, EntryNumber]}
+  DELETED:            {path: sync/Deleted, mode: sync, phase: 1, fields: [ID, Timestamp, EntityType, EntityKey, DeletedDate]}
+  # --- later phases / to confirm ---
+  UNMATCHED_RECEIPTS: {path: TBD, mode: full, phase: 4, verify: true, enabled: false,
+                       note: "Exact keeps unmatched receipts apart from ReceivablesList; confirm endpoint on the live admin"}
+  DOCUMENTS:          {path: sync/Documents/Documents, mode: sync, phase: 4, enabled: false, fields: [ID, Timestamp, FinancialTransactionEntryID, Type, Created]}
+  ASSETS:             {path: assets/Assets, mode: full, phase: 1, enabled: false,
+                       note: "no read rights yet (decision 11.7)"}

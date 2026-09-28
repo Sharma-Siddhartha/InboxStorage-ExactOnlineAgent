@@ -1,0 +1,8 @@
+task: close-checklist
+schedule: "5 working days before each VAT filing and period close (calendar: decision 11.10)"
+runner: mixed
+phase: 4
+steps:
+  - {skill: exact-period-close-monitor, runner: etl}
+  - {skill: exact-vat-compliance-checker, runner: claude, after: exact-period-close-monitor}
+  - {skill: exact-month-end-checklist, runner: claude, after: exact-vat-compliance-checker}

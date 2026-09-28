@@ -1,0 +1,9 @@
+name: exact-cashflow-forecaster
+group: analysis
+phase: 4
+status: planned
+runner: claude
+reads:
+- exact.core
+writes:
+- reports.cash_forecast

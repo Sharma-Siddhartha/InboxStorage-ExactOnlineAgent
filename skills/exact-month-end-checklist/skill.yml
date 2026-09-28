@@ -1,0 +1,14 @@
+name: exact-month-end-checklist
+group: analysis
+phase: 4
+status: planned
+runner: claude
+reads:
+- exact.core
+writes:
+- reports.close_checklist
+optional_reads:
+- ops.findings.close
+- ops.findings.bank
+- ops.findings.vat
+- ops.change_requests

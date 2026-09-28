@@ -1,0 +1,14 @@
+id: R010
+version: 1
+monitor: exact-bank-reconciliation-monitor
+title: Balance left in a suspense account beyond the agreed number of days
+owner: bookkeeper
+severity: high
+threshold: {setting: [suspense_gl_codes, suspense_max_days]}
+sql: |
+  SELECT 'gl_account', GL_CODE, DIVISION, SUM(AMOUNT_EUR),
+         OBJECT_CONSTRUCT('oldest_line_days', DATEDIFF(day, MIN(POSTING_DATE), CURRENT_DATE()), 'lines', COUNT(*))
+  FROM EXACT.CORE.TRANSACTION_LINES
+  WHERE GL_CODE IN ({suspense_gl_codes})
+  GROUP BY DIVISION, GL_CODE
+  HAVING ABS(SUM(AMOUNT_EUR)) > 0.005 AND DATEDIFF(day, MIN(POSTING_DATE), CURRENT_DATE()) > {suspense_max_days}

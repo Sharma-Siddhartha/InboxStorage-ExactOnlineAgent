@@ -1,0 +1,9 @@
+name: exact-anomaly-detector
+group: monitor
+phase: 6
+status: planned
+runner: etl
+reads:
+- exact.core
+writes:
+- ops.findings.anomaly

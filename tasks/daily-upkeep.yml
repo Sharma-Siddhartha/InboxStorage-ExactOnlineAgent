@@ -1,0 +1,13 @@
+task: daily-upkeep
+schedule: "weekdays 16:45 (etl) / 17:00 (claude) Europe/Amsterdam"
+runner: mixed
+steps:
+  # 1. Evaluate rules (etl, deterministic)
+  - {skill: exact-hygiene-monitor, runner: etl}
+  - {skill: exact-setup-monitor, runner: etl, after: exact-hygiene-monitor}
+  - {skill: exact-bank-reconciliation-monitor, runner: etl, after: exact-setup-monitor}
+  # 2-4. Judgment (Claude)
+  - {skill: exact-finding-triage, runner: claude, after: exact-bank-reconciliation-monitor}
+  - {skill: exact-change-proposals, runner: claude, requires: exact-finding-triage}
+  - {skill: exact-daily-summary, runner: claude, after: exact-change-proposals}
+# after = order only; requires = run only if the named step succeeded in this run

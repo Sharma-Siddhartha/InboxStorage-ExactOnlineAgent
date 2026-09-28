@@ -1,0 +1,9 @@
+# Accounts the billing integration posts to (decision 11.6). Exact can't see this mapping,
+# so these are protected by hand: never suggested for clean-up.
+dict_version: 1
+accounts:
+  - {gl_code: "8000", note: "storage revenue (billing integration)"}
+  - {gl_code: "8001", note: "storage revenue (billing integration)"}
+  - {gl_code: "8020", note: "storage revenue (billing integration)"}
+  - {gl_code: "8021", note: "storage revenue (billing integration)"}
+  # + debtor control, VAT, discount and rounding accounts the integration uses: TBD with billing owner

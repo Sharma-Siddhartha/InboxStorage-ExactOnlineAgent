@@ -1,0 +1,57 @@
+# The Exact Online agent: manifest.
+# This file is what makes the folder an agent: what it owns, what it offers, what it uses,
+# and what it is allowed to touch. The independence checker (platform/checks/independence_check.py)
+# reads this file plus every skills/*/skill.yml.
+agent: exact
+display_name: Exact Online agent
+version: 0.4.0            # bump on every merged change; recorded on every run
+owner: Siddhartha Sharma  # technical owner
+finance_owner: TBD        # decision 11.1: owns the dictionary and rule thresholds
+bookkeeper: TBD           # decision 11.2: applies change requests in Exact
+plan: knowledge/plan-v0.4.md
+
+administrations:          # decision 11.14: include every administration
+  - name: Inbox Storage BV
+    division: TBD          # Exact division number
+  # - name: Kubox           # add once confirmed as a separate administration
+  #   division: TBD
+
+permissions:
+  exact_online: read      # loader only, GET requests only; enforced by loader/exact_client.py and platform/checks/write_guard.py
+  snowflake_role_agent: AGENT_EXACT_RO      # skills: read EXACT.CORE/GOVERNANCE, write AGENT_OPS only
+  snowflake_role_loader: AGENT_EXACT_LOADER # nightly jobs: write EXACT.RAW only
+  github: write_own_repo  # snapshots/, audit/
+  slack: post_channel     # channel below
+  exact_connector_write: false  # Claude's Exact connector is never used by skills
+
+slack_channel: "#exact-agent"   # TBD
+
+owns:                      # artifacts only this agent writes
+  - EXACT.RAW.*
+  - EXACT.CORE.*
+  - EXACT.GOVERNANCE.*
+  - repo:snapshots/
+  - repo:audit/
+
+offers:                    # capabilities other agents can request via PLATFORM.AGENT_OPS.MESSAGES
+  - finance.lookup          # revenue, cost, margin, cash by agreed definition
+  - finance.revenue_posted  # posted revenue per GL account / customer code / period
+  - finance.wage_cost       # wage cost per period, totals only
+  - finance.cost_by_account # cost per account / period (e.g. logistics cost for Bumbal)
+
+uses:                      # capabilities requested from other agents
+  - billing.invoiced_totals   # Striker agent (subscriptions and billing)
+  - crm.won_deals             # HubSpot agent
+  - workforce.hours           # Shiftbase agent
+  - logistics.job_volumes     # Bumbal agent
+
+tasks:
+  - tasks/nightly-load.yml
+  - tasks/aging-pass.yml
+  - tasks/daily-upkeep.yml
+  - tasks/weekly-forecast.yml
+  - tasks/monthly-billing-check.yml
+  - tasks/close-checklist.yml
+  - tasks/ledger-cleanup.yml
+  - tasks/year-end-pack.yml
+  - tasks/inbox.yml

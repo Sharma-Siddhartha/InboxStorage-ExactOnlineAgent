@@ -1,0 +1,6 @@
+{
+  "name": "exact-agent",
+  "version": "0.4.0",
+  "description": "Inbox Storage's Exact Online department agent: hygiene monitoring, triage, change proposals for the bookkeeper, finance Q&A. Reads Snowflake only; never writes to Exact.",
+  "author": {"name": "Siddhartha Sharma"}
+}

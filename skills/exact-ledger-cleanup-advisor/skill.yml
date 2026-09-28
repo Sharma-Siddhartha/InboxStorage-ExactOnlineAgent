@@ -1,0 +1,10 @@
+name: exact-ledger-cleanup-advisor
+group: decision
+phase: 3
+status: active
+runner: claude
+reads:
+- exact.core.gl_usage
+- exact.governance
+writes:
+- repo.cleanup_list

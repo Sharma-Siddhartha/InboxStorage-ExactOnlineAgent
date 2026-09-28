@@ -1,0 +1,10 @@
+name: exact-master-data-sync
+group: foundation
+phase: 1
+status: active
+runner: etl
+reads:
+- exact.api
+writes:
+- exact.raw.master
+- exact.core.master

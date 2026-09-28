@@ -1,0 +1,19 @@
+id: R008
+version: 1
+monitor: exact-aging-monitor
+title: Overdue receivables above materiality (per customer code)
+owner: finance_owner
+severity: medium
+threshold: {setting: [materiality_receivable_eur, materiality_receivable_days]}
+notes: >
+  One finding per customer code above both thresholds. Everything below becomes one summary
+  finding (object_id 'below_materiality'), so 11,199 lines don't become 11,199 findings.
+sql: |
+  WITH c AS (
+    SELECT DIVISION, CUSTOMER_CODE, SUM(AMOUNT_OPEN_EUR) AMT, MAX(DAYS_OVERDUE) MAX_DAYS, COUNT(*) ITEMS
+    FROM EXACT.CORE.OPEN_RECEIVABLES WHERE DAYS_OVERDUE > 0 GROUP BY 1,2)
+  SELECT 'customer_code', CUSTOMER_CODE, DIVISION, AMT, OBJECT_CONSTRUCT('max_days_overdue', MAX_DAYS, 'items', ITEMS)
+  FROM c WHERE AMT >= {materiality_receivable_eur} AND MAX_DAYS >= {materiality_receivable_days}
+  UNION ALL
+  SELECT 'group', 'below_materiality', DIVISION, SUM(AMT), OBJECT_CONSTRUCT('customers', COUNT(*), 'items', SUM(ITEMS))
+  FROM c WHERE NOT (AMT >= {materiality_receivable_eur} AND MAX_DAYS >= {materiality_receivable_days}) GROUP BY DIVISION

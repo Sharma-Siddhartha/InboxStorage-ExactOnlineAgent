@@ -1,0 +1,9 @@
+name: exact-period-close-monitor
+group: monitor
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.core
+writes:
+- ops.findings.close

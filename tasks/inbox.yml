@@ -1,0 +1,6 @@
+task: inbox
+schedule: "hourly 09:00-17:00 weekdays Europe/Amsterdam"
+runner: claude
+steps:
+  - {skill: exact-query-desk}                   # answers finance.* requests
+  - {skill: exact-reconciliation, after: exact-query-desk, phase: 5}

@@ -1,0 +1,12 @@
+name: exact-collections-assistant
+group: decision
+phase: 4
+status: planned
+runner: claude
+reads:
+- ops.decisions
+- exact.core
+writes:
+- drafts.reminder_list
+optional_reads:
+- ops.findings.aging

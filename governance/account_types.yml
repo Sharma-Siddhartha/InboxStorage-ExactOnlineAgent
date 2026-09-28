@@ -1,0 +1,26 @@
+# Account-type dictionary. Owner: finance owner (decision 11.1). Every change bumps dict_version
+# and is synced to EXACT.GOVERNANCE.ACCOUNT_TYPES; answers name the version they used.
+dict_version: 1
+source: "Exact GLAccounts.Type + BalanceType. Labels from Exact API docs; [VERIFY] against EXACT.CORE.GL_ACCOUNTS after first load."
+types:
+  # --- agreed (already used in the GL 8000-series revenue analysis) ---
+  - {type: 110, balance: W, label: Revenue, metric_class: revenue,
+     definition: "Revenue = profit-and-loss accounts of revenue type (BalanceType W, Type 110). Sign flipped so revenue is positive."}
+  # --- proposed, to be agreed with the finance owner ---
+  - {type: 111, balance: W, label: Cost of goods, metric_class: cost_of_sales, definition: "Direct cost of sales."}
+  - {type: 120, balance: W, label: Other costs, metric_class: operating_cost, definition: "Operating cost."}
+  - {type: 121, balance: W, label: Sales/general/admin expenses, metric_class: operating_cost, definition: "Operating cost."}
+  - {type: 122, balance: W, label: Depreciation costs, metric_class: operating_cost, definition: "Depreciation."}
+  - {type: 125, balance: W, label: Employee costs, metric_class: wage_cost, definition: "Wage cost; account x period level only."}
+  - {type: 126, balance: W, label: Employment costs, metric_class: wage_cost, definition: "Wage cost; account x period level only."}
+  - {type: 130, balance: W, label: Exceptional costs, metric_class: operating_cost, definition: "Non-recurring cost."}
+  - {type: 140, balance: W, label: Exceptional income, metric_class: other_income, definition: "Not revenue."}
+  - {type: 160, balance: W, label: Interest income, metric_class: other_income, definition: "Not revenue."}
+  - {type: 12,  balance: B, label: Bank, metric_class: cash, definition: "Cash position."}
+  - {type: 10,  balance: B, label: Cash, metric_class: cash, definition: "Cash position."}
+  - {type: 20,  balance: B, label: Accounts receivable, metric_class: receivable, definition: ""}
+  - {type: 22,  balance: B, label: Accounts payable, metric_class: payable, definition: ""}
+  - {type: 24,  balance: B, label: VAT, metric_class: vat, definition: ""}
+margin:
+  gross_margin: "revenue - cost_of_sales"
+  operating_margin: "revenue - cost_of_sales - operating_cost - wage_cost"

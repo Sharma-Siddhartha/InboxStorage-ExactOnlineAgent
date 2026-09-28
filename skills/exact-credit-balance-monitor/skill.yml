@@ -1,0 +1,10 @@
+name: exact-credit-balance-monitor
+group: monitor
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.core
+- exact.governance
+writes:
+- ops.findings.credit

@@ -1,0 +1,20 @@
+id: R002
+version: 1
+monitor: exact-hygiene-monitor
+title: Postings to the wrong type of account (revenue on a cost account, or the reverse)
+owner: finance_owner
+severity: high
+threshold: null
+notes: >
+  Sales-journal revenue lines should land on revenue accounts; purchase-journal lines should not.
+  Journal types from EXACT.CORE.JOURNALS ([VERIFY] 20 = sales, 22 = purchase).
+sql: |
+  SELECT 'transaction_line' AS OBJECT_TYPE, l.LINE_ID AS OBJECT_ID, l.DIVISION, l.AMOUNT_EUR,
+         OBJECT_CONSTRUCT('gl', l.GL_CODE, 'journal', l.JOURNAL_CODE, 'account_class', d.METRIC_CLASS, 'journal_type', j.JOURNAL_TYPE) AS METRIC
+  FROM EXACT.CORE.TRANSACTION_LINES l
+  JOIN EXACT.CORE.GL_ACCOUNTS a ON a.DIVISION = l.DIVISION AND a.GL_CODE = l.GL_CODE
+  JOIN EXACT.GOVERNANCE.ACCOUNT_TYPES_CURRENT d ON d.ACCOUNT_TYPE = a.ACCOUNT_TYPE AND d.BALANCE_TYPE = a.BALANCE_TYPE
+  JOIN EXACT.CORE.JOURNALS j ON j.DIVISION = l.DIVISION AND j.JOURNAL_CODE = l.JOURNAL_CODE
+  WHERE l.POSTING_DATE >= DATEADD(day, -35, CURRENT_DATE())
+    AND ((j.JOURNAL_TYPE = 22 AND d.METRIC_CLASS = 'revenue')
+      OR (j.JOURNAL_TYPE = 20 AND d.METRIC_CLASS IN ('cost_of_sales','operating_cost','wage_cost') AND l.AMOUNT_EUR < 0))

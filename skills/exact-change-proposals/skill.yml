@@ -1,0 +1,10 @@
+name: exact-change-proposals
+group: decision
+phase: 3
+status: active
+runner: claude
+reads:
+- ops.decisions
+- exact.core
+writes:
+- ops.change_requests

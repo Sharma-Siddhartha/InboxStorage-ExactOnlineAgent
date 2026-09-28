@@ -1,0 +1,13 @@
+name: exact-benchmark-tracker
+group: analysis
+phase: 6
+status: planned
+runner: claude
+reads:
+- ops.runs
+writes:
+- reports.benchmarks
+optional_reads:
+- ops.findings.hygiene
+- ops.findings.aging
+- reports.margin

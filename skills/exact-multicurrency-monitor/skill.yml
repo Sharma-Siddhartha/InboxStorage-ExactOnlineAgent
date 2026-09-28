@@ -1,0 +1,10 @@
+name: exact-multicurrency-monitor
+group: monitor
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.core
+- exact.raw.rates
+writes:
+- ops.findings.fx

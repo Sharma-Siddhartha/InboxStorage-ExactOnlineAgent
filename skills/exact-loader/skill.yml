@@ -1,0 +1,10 @@
+name: exact-loader
+group: foundation
+phase: 1
+status: active
+runner: etl
+reads:
+- exact.api
+writes:
+- exact.raw
+- exact.core

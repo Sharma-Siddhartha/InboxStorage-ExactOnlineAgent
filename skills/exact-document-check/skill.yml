@@ -1,0 +1,9 @@
+name: exact-document-check
+group: monitor
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.core
+writes:
+- ops.findings.documents

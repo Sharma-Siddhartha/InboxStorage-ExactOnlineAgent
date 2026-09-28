@@ -1,0 +1,13 @@
+name: exact-audit-export
+group: foundation
+phase: 1
+status: active
+runner: etl
+reads:
+- ops.runs
+writes:
+- ops.queries
+- repo.audit
+optional_reads:
+- ops.decisions
+- ops.change_requests

@@ -1,0 +1,19 @@
+id: R003
+version: 1
+monitor: exact-hygiene-monitor
+title: VAT code on a line doesn't fit the account's normal VAT treatment
+owner: finance_owner
+severity: medium
+threshold: {min_lines: 1}
+notes: Grouped per account and VAT code so one systematic mistake is one finding, not hundreds.
+sql: |
+  SELECT 'group' AS OBJECT_TYPE, l.GL_CODE || '|' || COALESCE(l.VAT_CODE, 'none') AS OBJECT_ID, l.DIVISION,
+         SUM(l.AMOUNT_EUR) AS AMOUNT_EUR,
+         OBJECT_CONSTRUCT('gl', l.GL_CODE, 'line_vat', l.VAT_CODE, 'account_default_vat', a.DEFAULT_VAT_CODE, 'lines', COUNT(*)) AS METRIC
+  FROM EXACT.CORE.TRANSACTION_LINES l
+  JOIN EXACT.CORE.GL_ACCOUNTS a ON a.DIVISION = l.DIVISION AND a.GL_CODE = l.GL_CODE
+  WHERE a.DEFAULT_VAT_CODE IS NOT NULL
+    AND COALESCE(l.VAT_CODE, '') <> a.DEFAULT_VAT_CODE
+    AND a.BALANCE_TYPE = 'W'
+    AND l.POSTING_DATE >= DATEADD(day, -35, CURRENT_DATE())
+  GROUP BY l.DIVISION, l.GL_CODE, l.VAT_CODE, a.DEFAULT_VAT_CODE

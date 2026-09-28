@@ -1,0 +1,8 @@
+task: nightly-load
+schedule: "daily 02:00 Europe/Amsterdam"     # Windows Task Scheduler on the ETL machine
+runner: etl
+steps:
+  - {skill: exact-loader}
+  - {skill: exact-master-data-sync, after: exact-loader}
+  - {skill: exact-config-snapshot, requires: exact-master-data-sync}   # only snapshot a complete load
+  - {skill: exact-audit-export, after: exact-config-snapshot}

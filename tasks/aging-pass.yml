@@ -1,0 +1,6 @@
+task: aging-pass
+schedule: "weekdays 07:30 Europe/Amsterdam"
+runner: mixed           # etl starts the run, Claude joins it (knowledge/run-protocol.md)
+steps:
+  - {skill: exact-aging-monitor, runner: etl}
+  - {skill: exact-collections-assistant, runner: claude, requires: exact-aging-monitor, phase: 4}   # skipped until phase 4

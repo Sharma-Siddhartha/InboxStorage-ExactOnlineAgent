@@ -1,0 +1,9 @@
+name: exact-open-item-matcher
+group: monitor
+phase: 4
+status: planned
+runner: etl
+reads:
+- exact.core
+writes:
+- ops.findings.matches

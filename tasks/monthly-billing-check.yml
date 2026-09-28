@@ -1,0 +1,6 @@
+task: monthly-billing-check
+schedule: "3rd working day of the month 09:00 Europe/Amsterdam"
+runner: claude
+phase: 5
+steps:
+  - {skill: exact-billing-reconciliation}
