@@ -6,6 +6,7 @@ import json, os, subprocess, uuid
 from contextlib import contextmanager
 from pathlib import Path
 
+import sys
 import snowflake.connector
 from cryptography.hazmat.primitives import serialization
 
@@ -73,6 +74,7 @@ class Run:
             yield ctx
             cur.execute(ins, (step_id, self.run_id, skill, "succeeded", None, ctx["rows_out"]))
         except Exception as e:  # logged, then the task carries on with independent steps
+            print(f"step {skill} failed: {e}", file=sys.stderr)
             cur.execute(ins, (step_id, self.run_id, skill, "failed", str(e)[:1000], None))
             self.status = "partial"
             ctx["failed"] = True

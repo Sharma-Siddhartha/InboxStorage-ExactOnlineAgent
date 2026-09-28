@@ -72,6 +72,7 @@ def flush(run: Run, cur, entity: str, mode: str) -> int:
 
 def load_entity(run: Run, api: ExactReadOnly, entity: str, cfg: dict, division: str) -> int:
     cur = run.conn.cursor()
+    cur.execute("USE SCHEMA EXACT.RAW")          # staging tables live next to the RAW tables
     ensure_table(cur, entity)
     id_field = cfg.get("id_field", "ID")
     select = list(dict.fromkeys(cfg["fields"] + list((cfg.get("fingerprint") or {}).keys())))
@@ -84,7 +85,7 @@ def load_entity(run: Run, api: ExactReadOnly, entity: str, cfg: dict, division: 
     for page in api.pages(division, cfg["path"], select, flt, entity):
         rows = [shape(entity, cfg, r) for r in page]
         staged += write_batch(run, cur, entity, division, rows, id_field, cfg["mode"])
-        ts = [r.get("Timestamp") for r in page if r.get("Timestamp") is not None]
+        ts = [int(r["Timestamp"]) for r in page if r.get("Timestamp") is not None]
         if ts:
             max_ts = max([max_ts or 0] + ts)
         if not page:
@@ -109,6 +110,8 @@ def main():
             with run.step(f"exact-loader:{entity}:{division}", requires_ok=False) as ctx:
                 ctx["rows_out"] = load_entity(run, api, entity, CFG["entities"][entity], division)
     run.finish()
+    print(f"run {run.run_id}: {run.status}")
+    sys.exit(0 if run.status == "succeeded" else 1)
 
 
 if __name__ == "__main__":
