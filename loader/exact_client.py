@@ -40,8 +40,15 @@ class ExactReadOnly:
             raise RuntimeError(f"{entity}: 5 errors this run, stopping to protect the API key")
         if self.calls_today_remaining is not None and self.calls_today_remaining < 200:
             raise RuntimeError("daily API budget nearly used; leaving headroom for colleagues' integrations")
-        r = requests.get(url, params=params, timeout=120,
-                         headers={"Authorization": f"Bearer {self._token()}", "Accept": "application/json"})
+        for attempt in range(3):                       # ride out short network/DNS blips
+            try:
+                r = requests.get(url, params=params, timeout=120,
+                                 headers={"Authorization": f"Bearer {self._token()}", "Accept": "application/json"})
+                break
+            except requests.ConnectionError:
+                if attempt == 2:
+                    raise
+                time.sleep(30 * (attempt + 1))
         self._respect_limits(r)
         if r.status_code >= 400:
             self.errors[entity] = self.errors.get(entity, 0) + 1

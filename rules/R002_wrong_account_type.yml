@@ -1,5 +1,5 @@
 id: R002
-version: 1
+version: 2
 monitor: exact-hygiene-monitor
 title: Postings to the wrong type of account (revenue on a cost account, or the reverse)
 owner: finance_owner
@@ -7,7 +7,7 @@ severity: high
 threshold: null
 notes: >
   Sales-journal revenue lines should land on revenue accounts; purchase-journal lines should not.
-  Journal types from EXACT.CORE.JOURNALS ([VERIFY] 20 = sales, 22 = purchase).
+  Journal types verified 28 Sept 2026: 20 = sales (Verkoopboek), 22 = purchase (Inkoopboek).
 sql: |
   SELECT 'transaction_line' AS OBJECT_TYPE, l.LINE_ID AS OBJECT_ID, l.DIVISION, l.AMOUNT_EUR,
          OBJECT_CONSTRUCT('gl', l.GL_CODE, 'journal', l.JOURNAL_CODE, 'account_class', d.METRIC_CLASS, 'journal_type', j.JOURNAL_TYPE) AS METRIC

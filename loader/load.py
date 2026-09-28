@@ -26,11 +26,23 @@ def fingerprint(value) -> str | None:
     return hmac.new(FP_KEY, norm.encode(), hashlib.sha256).hexdigest()[:24]   # keyed: not brute-forceable
 
 
+WAGE_CODES: set[str] = set()   # filled at start: GL accounts of type 125/126 + settings.wage_gl_codes
+
+
+def load_wage_codes(cur):
+    WAGE_CODES.update(str(c) for c in SETTINGS.get("wage_gl_codes") or [])
+    try:
+        cur.execute("SELECT DISTINCT PAYLOAD:Code::STRING FROM EXACT.RAW.GL_ACCOUNTS WHERE PAYLOAD:Type::NUMBER IN (125, 126)")
+        WAGE_CODES.update(r[0] for r in cur.fetchall())
+    except Exception:
+        pass   # first ever load: GL accounts not there yet; they load before transaction lines next time
+
+
 def shape(entity: str, cfg: dict, rec: dict) -> dict:
     out = {k: rec.get(k) for k in cfg["fields"]}
     for src, dst in (cfg.get("fingerprint") or {}).items():
         out[dst] = fingerprint(rec.get(src))                  # the raw value is dropped here
-    if cfg.get("wage_strip") and str(rec.get("GLAccountCode", "")).strip() in {str(c) for c in SETTINGS.get("wage_gl_codes") or []}:
+    if cfg.get("wage_strip") and str(rec.get("GLAccountCode", "")).strip() in WAGE_CODES:
         for f in cfg["wage_strip"]:
             out[f] = None
     return out
@@ -109,6 +121,7 @@ def main():
                                                        if c.get("enabled", True) and c.get("phase", 1) <= a.phase]
     run = Run("exact", "nightly-load", os.environ["SNOWFLAKE_ROLE"], ROOT, AGENT_VERSION).start()
     api = ExactReadOnly()
+    load_wage_codes(run.conn.cursor())
     for division in [d.strip() for d in os.environ["EXACT_DIVISIONS"].split(",") if d.strip()]:
         for entity in wanted:
             with run.step(f"exact-loader:{entity}:{division}", requires_ok=False) as ctx:
