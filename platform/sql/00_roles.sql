@@ -47,5 +47,8 @@ GRANT SELECT ON ALL VIEWS IN SCHEMA PLATFORM.INTEGRATION TO ROLE AGENT_EXACT_RO;
 -- Query history for filling AGENT_OPS.QUERIES (nightly job only).
 GRANT DATABASE ROLE SNOWFLAKE.GOVERNANCE_VIEWER TO ROLE AGENT_EXACT_LOADER;
 
+
+GRANT USAGE ON WAREHOUSE COMPUTE_WH TO ROLE AGENT_EXACT_LOADER;
 -- Network policy: the nightly jobs run from the ETL machine (decision 11.13); add its IP
 -- to the existing allowlist rather than creating a new policy.
+
