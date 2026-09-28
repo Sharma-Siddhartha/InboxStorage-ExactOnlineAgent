@@ -9,7 +9,7 @@ PATTERNS = [
     re.compile(r"method\s*=\s*['\"](POST|PUT|PATCH|DELETE)['\"]", re.I),
     re.compile(r"write_operation", re.I),                                 # Claude Exact connector write tool
 ]
-ALLOW = {"platform/checks/write_guard.py", "loader/exact_client.py"}     # token refresh POST is to /oauth2/token only
+ALLOW = {"platform/checks/write_guard.py", "loader/exact_client.py", "loader/authorize.py"}  # POST only to /oauth2/token
 
 SKIP_DIRS = {".venv", "venv", "env", ".git", "site-packages", "node_modules", "__pycache__", ".pytest_cache"}
 
@@ -28,6 +28,9 @@ def main() -> int:
     client = (ROOT / "loader/exact_client.py").read_text()
     if len(re.findall(r"requests\.post\(", client)) != 1 or "oauth2/token" not in client:
         bad.append("loader/exact_client.py: POST allowed only for /oauth2/token")
+    auth = (ROOT / "loader/authorize.py").read_text()
+    if len(re.findall(r"requests\.post\(", auth)) != 1 or "oauth2/token" not in auth:
+        bad.append("loader/authorize.py: POST allowed only for /oauth2/token")
     for b in bad:
         print("WRITE-GUARD:", b)
     return 1 if bad else 0
