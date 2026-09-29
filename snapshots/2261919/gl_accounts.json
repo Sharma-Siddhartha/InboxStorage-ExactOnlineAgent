@@ -745,7 +745,7 @@
   "ACCOUNT_TYPE": 60,
   "BALANCE_TYPE": "B",
   "BALANCE_SIDE": "C",
-  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_VAT_CODE": "0",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -1275,7 +1275,7 @@
   "ACCOUNT_TYPE": 24,
   "BALANCE_TYPE": "B",
   "BALANCE_SIDE": "C",
-  "DEFAULT_VAT_CODE": "5  ",
+  "DEFAULT_VAT_CODE": "5",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3175,7 +3175,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_VAT_CODE": "1",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },
@@ -3185,7 +3185,7 @@
   "ACCOUNT_TYPE": 90,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_VAT_CODE": "0",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3735,7 +3735,7 @@
   "ACCOUNT_TYPE": 90,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_VAT_CODE": "0",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },
@@ -3745,7 +3745,7 @@
   "ACCOUNT_TYPE": 90,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_VAT_CODE": "0",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },
@@ -3755,7 +3755,7 @@
   "ACCOUNT_TYPE": 90,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_VAT_CODE": "0",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },
@@ -3765,7 +3765,7 @@
   "ACCOUNT_TYPE": 90,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "0  ",
+  "DEFAULT_VAT_CODE": "0",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },
@@ -3815,7 +3815,7 @@
   "ACCOUNT_TYPE": 111,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3845,7 +3845,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3855,7 +3855,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3865,7 +3865,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3875,7 +3875,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3885,7 +3885,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -3895,7 +3895,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -4595,7 +4595,7 @@
   "ACCOUNT_TYPE": 110,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "C",
-  "DEFAULT_VAT_CODE": "2  ",
+  "DEFAULT_VAT_CODE": "2",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -4605,7 +4605,7 @@
   "ACCOUNT_TYPE": 110,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "C",
-  "DEFAULT_VAT_CODE": "2  ",
+  "DEFAULT_VAT_CODE": "2",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -4635,7 +4635,7 @@
   "ACCOUNT_TYPE": 110,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "C",
-  "DEFAULT_VAT_CODE": "3  ",
+  "DEFAULT_VAT_CODE": "3",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": false
  },
@@ -6085,7 +6085,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_VAT_CODE": "1",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },
@@ -6205,7 +6205,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_VAT_CODE": "1",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },
@@ -6345,7 +6345,7 @@
   "ACCOUNT_TYPE": 121,
   "BALANCE_TYPE": "W",
   "BALANCE_SIDE": "D",
-  "DEFAULT_VAT_CODE": "1  ",
+  "DEFAULT_VAT_CODE": "1",
   "DEFAULT_COST_CENTER": null,
   "IS_BLOCKED": true
  },

@@ -1,118 +1,118 @@
 [
  {
-  "VAT_CODE": "0  ",
+  "VAT_CODE": "0",
   "VAT_DESCRIPTION": "Geen BTW",
   "PERCENTAGE": 0.0,
   "VAT_TYPE": "N",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "1  ",
+  "VAT_CODE": "1",
   "VAT_DESCRIPTION": "BTW 21% (incl)",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "I",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "10 ",
+  "VAT_CODE": "10",
   "VAT_DESCRIPTION": "Verwerving binnen de EU",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "11 ",
+  "VAT_CODE": "11",
   "VAT_DESCRIPTION": "BTW prive gebruik",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "12 ",
+  "VAT_CODE": "12",
   "VAT_DESCRIPTION": "BTW overige tarieven",
   "PERCENTAGE": 0.12,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "19 ",
+  "VAT_CODE": "19",
   "VAT_DESCRIPTION": "BTW hoog tarief, exclusief (OUD)",
   "PERCENTAGE": 0.19,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "2  ",
+  "VAT_CODE": "2",
   "VAT_DESCRIPTION": "BTW 0%",
   "PERCENTAGE": 0.0,
   "VAT_TYPE": "B",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "20 ",
+  "VAT_CODE": "20",
   "VAT_DESCRIPTION": "BTW 0% (alleen grondslag)",
   "PERCENTAGE": 0.0,
   "VAT_TYPE": "B",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "3  ",
+  "VAT_CODE": "3",
   "VAT_DESCRIPTION": "BTW 21% (excl)",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "33 ",
+  "VAT_CODE": "33",
   "VAT_DESCRIPTION": "BTW 21% (excl)",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "4  ",
+  "VAT_CODE": "4",
   "VAT_DESCRIPTION": "BTW hoog tarief, inclusief",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "I",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "5  ",
+  "VAT_CODE": "5",
   "VAT_DESCRIPTION": "BTW verlegd",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "55 ",
+  "VAT_CODE": "55",
   "VAT_DESCRIPTION": "BTW 9% excl",
   "PERCENTAGE": 0.09,
   "VAT_TYPE": "E",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "6  ",
+  "VAT_CODE": "6",
   "VAT_DESCRIPTION": "Verkopen buiten de EU",
   "PERCENTAGE": 0.0,
   "VAT_TYPE": "B",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "7  ",
+  "VAT_CODE": "7",
   "VAT_DESCRIPTION": "Verkopen binnen de EU",
   "PERCENTAGE": 0.0,
   "VAT_TYPE": "B",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "8  ",
+  "VAT_CODE": "8",
   "VAT_DESCRIPTION": "Installatie/televerkoop in EG",
   "PERCENTAGE": 0.0,
   "VAT_TYPE": "B",
   "IS_BLOCKED": false
  },
  {
-  "VAT_CODE": "9  ",
+  "VAT_CODE": "9",
   "VAT_DESCRIPTION": "Verwerving buiten EU (invoer)",
   "PERCENTAGE": 0.21,
   "VAT_TYPE": "E",
