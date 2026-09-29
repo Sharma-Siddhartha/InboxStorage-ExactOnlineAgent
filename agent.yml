@@ -24,7 +24,7 @@ permissions:
   slack: post_channel     # channel below
   exact_connector_write: false  # Claude's Exact connector is never used by skills
 
-slack_channel: "#exact-agent"   # TBD
+slack_channel: "#exact-agent"
 
 owns:                      # artifacts only this agent writes
   - EXACT.RAW.*
