@@ -1,8 +1,16 @@
 # Run protocol for Claude-run steps
 
 Every Claude-run task and skill follows this contract, so its work shows up in the same
-PLATFORM.AGENT_OPS trace as the Python jobs. Snowflake access is through the Snowflake connector
-(role AGENT_EXACT_RO). The Exact Online connector is never used by any skill.
+PLATFORM.AGENT_OPS trace as the Python jobs. Snowflake access is through the Snowflake connector.
+The Exact Online connector is never used by any skill.
+
+**Reading vs writing.** The connector's `sql_exec_tool` is read-only. Every write in the steps
+below goes through the **`agent_ops_log`** tool (procedure PLATFORM.AGENT_OPS.LOG_ROWS):
+`table_name` = RUNS | STEPS | DECISIONS | CHANGE_REQUESTS | MESSAGES, `rows_json` = a JSON array of
+objects with UPPERCASE column names, e.g.
+`[{"RUN_ID":"…","AGENT":"exact","TASK":"daily-upkeep","EVENT":"started","TRIGGERED_BY":"schedule"}]`.
+Write many rows in one call (up to 1,000), not one call per row. The INSERT statements shown below
+describe *what* to write; send them as rows through `agent_ops_log`.
 
 1. **Start the run before any work.**
    `SELECT UUID_STRING() AS RUN_ID;` then
