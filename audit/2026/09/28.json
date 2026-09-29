@@ -1,0 +1,1671 @@
+{
+ "runs": [
+  {
+   "RUN_ID": "88d7425c-1f8e-4c71-a8c3-e84610744764",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:03:07.344000+02:00",
+   "CODE_VERSION": "6ff3f70",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "88d7425c-1f8e-4c71-a8c3-e84610744764",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "partial",
+   "EVENT_AT": "2026-09-28 13:03:15.369000+02:00",
+   "CODE_VERSION": "6ff3f70",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "9fde2ab5-da55-4806-8f79-860fdc6b4c4e",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:07:29.438000+02:00",
+   "CODE_VERSION": "6ff3f70",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "9fde2ab5-da55-4806-8f79-860fdc6b4c4e",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "partial",
+   "EVENT_AT": "2026-09-28 13:07:35.916000+02:00",
+   "CODE_VERSION": "6ff3f70",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "dc173467-cba2-497e-bd0a-8a5a52e71cbb",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:09:01.138000+02:00",
+   "CODE_VERSION": "6ff3f70",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "dc173467-cba2-497e-bd0a-8a5a52e71cbb",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 13:09:08.910000+02:00",
+   "CODE_VERSION": "6ff3f70",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "5f71c7de-8e48-41ab-add4-ef9c2f83bcca",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:10:16.661000+02:00",
+   "CODE_VERSION": "0519a96",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "5f71c7de-8e48-41ab-add4-ef9c2f83bcca",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 13:10:20.013000+02:00",
+   "CODE_VERSION": "0519a96",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:13:09.001000+02:00",
+   "CODE_VERSION": "0519a96",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:19:52.846000+02:00",
+   "CODE_VERSION": "f9405a5",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "partial",
+   "EVENT_AT": "2026-09-28 14:24:10.470000+02:00",
+   "CODE_VERSION": "8932629",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 15:32:49.823000+02:00",
+   "CODE_VERSION": "f6fb3ac",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "partial",
+   "EVENT_AT": "2026-09-28 15:33:08.671000+02:00",
+   "CODE_VERSION": "f6fb3ac",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "a9555775-0c76-44d8-ab0a-79df6469f50e",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 15:37:58.495000+02:00",
+   "CODE_VERSION": "f6fb3ac",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "a9555775-0c76-44d8-ab0a-79df6469f50e",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 15:46:37.679000+02:00",
+   "CODE_VERSION": "f6fb3ac",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:18:26.884000+02:00",
+   "CODE_VERSION": "77b53f4",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "AGENT": "exact",
+   "TASK": "nightly-load",
+   "EVENT": "partial",
+   "EVENT_AT": "2026-09-28 18:27:47.274000+02:00",
+   "CODE_VERSION": "77b53f4",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "eabc4c3e-119f-4c12-820e-b36193622666",
+   "AGENT": "exact",
+   "TASK": "nightly-config-snapshot",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 19:54:32.328000+02:00",
+   "CODE_VERSION": "e07ad80",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "eabc4c3e-119f-4c12-820e-b36193622666",
+   "AGENT": "exact",
+   "TASK": "nightly-config-snapshot",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 19:54:40.272000+02:00",
+   "CODE_VERSION": "1d2d1cc",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "07ad60e0-dfc3-49f9-9910-289603eaa901",
+   "AGENT": "exact",
+   "TASK": "daily-upkeep",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 20:06:55.354000+02:00",
+   "CODE_VERSION": "1d2d1cc",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "07ad60e0-dfc3-49f9-9910-289603eaa901",
+   "AGENT": "exact",
+   "TASK": "daily-upkeep",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 21:35:17.322000+02:00",
+   "CODE_VERSION": null,
+   "AGENT_VERSION": null,
+   "MODEL": null,
+   "TRIGGERED_BY": null,
+   "NOTE": "stopped manually: R001 v2 flagged every entry of open years; findings deleted, replaced by R001 v3"
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "AGENT": "exact",
+   "TASK": "daily-upkeep",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:38:22.376000+02:00",
+   "CODE_VERSION": "cb150c0",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "AGENT": "exact",
+   "TASK": "daily-upkeep",
+   "EVENT": "handed_over",
+   "EVENT_AT": "2026-09-28 21:38:50.164000+02:00",
+   "CODE_VERSION": "cb150c0",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": "etl steps done; claude steps pending"
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "AGENT": "exact",
+   "TASK": "daily-upkeep",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 21:41:19.983000+02:00",
+   "CODE_VERSION": null,
+   "AGENT_VERSION": null,
+   "MODEL": null,
+   "TRIGGERED_BY": null,
+   "NOTE": "test run: R005 SQL error, R007 ran with TBD scheme, codes untrimmed; findings deleted"
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "AGENT": "exact",
+   "TASK": "daily-upkeep",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:49:24.643000+02:00",
+   "CODE_VERSION": "8e21577",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": ""
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "AGENT": "exact",
+   "TASK": "daily-upkeep",
+   "EVENT": "handed_over",
+   "EVENT_AT": "2026-09-28 21:49:49.129000+02:00",
+   "CODE_VERSION": "8e21577",
+   "AGENT_VERSION": "0.4.0",
+   "MODEL": null,
+   "TRIGGERED_BY": "schedule",
+   "NOTE": "etl steps done; claude steps pending"
+  }
+ ],
+ "steps": [
+  {
+   "RUN_ID": "88d7425c-1f8e-4c71-a8c3-e84610744764",
+   "STEP_ID": "a37714f5-52f3-456d-84dc-6ba03229b3e4",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:03:10.391000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "88d7425c-1f8e-4c71-a8c3-e84610744764",
+   "STEP_ID": "a37714f5-52f3-456d-84dc-6ba03229b3e4",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 13:03:14.748000+02:00",
+   "REASON": "090105 (22000): Cannot perform CREATE TEMPTABLE. This session does not have a current database. Call 'USE DATABASE', or use a qualified name.",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9fde2ab5-da55-4806-8f79-860fdc6b4c4e",
+   "STEP_ID": "ef34f246-088b-4514-87c3-ace799855789",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:07:30.372000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9fde2ab5-da55-4806-8f79-860fdc6b4c4e",
+   "STEP_ID": "ef34f246-088b-4514-87c3-ace799855789",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 13:07:35.476000+02:00",
+   "REASON": "'>' not supported between instances of 'str' and 'int'",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "dc173467-cba2-497e-bd0a-8a5a52e71cbb",
+   "STEP_ID": "b7a8eb53-4d60-49ce-83c7-a2ef5e32cb55",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:09:01.836000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "dc173467-cba2-497e-bd0a-8a5a52e71cbb",
+   "STEP_ID": "b7a8eb53-4d60-49ce-83c7-a2ef5e32cb55",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 13:09:08.571000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 636
+  },
+  {
+   "RUN_ID": "5f71c7de-8e48-41ab-add4-ef9c2f83bcca",
+   "STEP_ID": "5df8ce1d-0107-493e-a930-4a204786f913",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:10:17.212000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "5f71c7de-8e48-41ab-add4-ef9c2f83bcca",
+   "STEP_ID": "5df8ce1d-0107-493e-a930-4a204786f913",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 13:10:19.480000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "82b9b1c8-08fb-4902-82fa-b278b73c4765",
+   "SKILL": "exact-loader",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:13:09.753000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "a8ee4972-327d-4e0e-b0a0-d360fb4bda7e",
+   "SKILL": "exact-loader:TRANSACTION_LINES:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:13:14.310000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "a8ee4972-327d-4e0e-b0a0-d360fb4bda7e",
+   "SKILL": "exact-loader:TRANSACTION_LINES:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 13:13:16.935000+02:00",
+   "REASON": "400 Client Error: Bad Request for url: https://start.exactonline.nl/api/v1/2261919/sync/Financial/TransactionLines?%24select=ID%2CTimestamp%2CEntryID%2CEntryNumber%2CLineNumber%2CDate%2CFinancialYear%2CFinancialPeriod%2CJournalCode%2CType%2CGLAccountCode%2CAccountCode%2CAmountDC%2CAmountVATDC%2CVATCode%2CCostCenter%2CCostUnit%2CInvoiceNumber%2CDueDate%2CStatus%2CDescription%2CCreated&%24filter=Timestamp+gt+1L",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "5e6a44c9-4581-4135-86af-67ff502644d9",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:13:17.413000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "5e6a44c9-4581-4135-86af-67ff502644d9",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 13:13:19.686000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "75713ba2-5e08-4856-a524-e54fd2ed3418",
+   "SKILL": "exact-loader:GL_ACCOUNT_CLASSIFICATION_MAPPINGS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:13:20.538000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "75713ba2-5e08-4856-a524-e54fd2ed3418",
+   "SKILL": "exact-loader:GL_ACCOUNT_CLASSIFICATION_MAPPINGS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 13:13:23.069000+02:00",
+   "REASON": "400 Client Error: Bad Request for url: https://start.exactonline.nl/api/v1/2261919/financial/GLAccountClassificationMappings?%24select=ID%2CGLAccount%2CClassification%2CGLScheme",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "2925abc4-7c2c-4aeb-b315-aa6dce7ac1bc",
+   "STEP_ID": "4d09c3db-aa45-43bc-8eb7-d31d861023ea",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:13:23.569000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "ab53a16d-155e-4d70-a9b3-190130aefef0",
+   "SKILL": "exact-loader",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:19:53.731000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "b4be03ea-7294-42b8-8963-56fbcded571e",
+   "SKILL": "exact-loader:TRANSACTION_LINES:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 13:19:57.698000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "b4be03ea-7294-42b8-8963-56fbcded571e",
+   "SKILL": "exact-loader:TRANSACTION_LINES:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:21:14.393000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 1055094
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "eb944769-6c42-4f85-b599-3c71a41a5eda",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:21:14.955000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "eb944769-6c42-4f85-b599-3c71a41a5eda",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:21:18.183000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "819f6bd3-f609-4af4-bd7e-ff0c0c99f638",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:21:18.990000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "819f6bd3-f609-4af4-bd7e-ff0c0c99f638",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:22:10.470000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 14695
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "e0d91f22-5a9a-45e1-b5ea-3980d1cbe707",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:11.351000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "e0d91f22-5a9a-45e1-b5ea-3980d1cbe707",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:22:15.278000+02:00",
+   "REASON": "404 BANK_ACCOUNTS: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Resource not found for the segment 'BankAccounts'.\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "7f6e6420-8d5d-4969-a9bb-ced4c309f17a",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:15.741000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "7f6e6420-8d5d-4969-a9bb-ced4c309f17a",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:22:19.988000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 17
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "bfcda0f0-fc07-47ba-a38d-10fdef4723e4",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:20.475000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "bfcda0f0-fc07-47ba-a38d-10fdef4723e4",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:22:23.316000+02:00",
+   "REASON": "400 JOURNALS: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Type 'Exact.Web.Api.Models.Journal' does not have a property named 'SuspenseGLAccount'.\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "3dc6a5da-94c5-4fcc-a8ef-50d36ad7cc68",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:23.782000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "3dc6a5da-94c5-4fcc-a8ef-50d36ad7cc68",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:22:28.269000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 22
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "1098223b-17b6-4b50-abf7-d9ccc1c9d859",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:28.818000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "1098223b-17b6-4b50-abf7-d9ccc1c9d859",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:22:31.873000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "a504b1d2-4d43-4f57-b5f0-8e9510f39be4",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:32.341000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "a504b1d2-4d43-4f57-b5f0-8e9510f39be4",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:22:37.216000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 13
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "f46820fd-1308-4b95-8aca-1a9417540d2f",
+   "SKILL": "exact-loader:FINANCIAL_PERIODS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:37.700000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "f46820fd-1308-4b95-8aca-1a9417540d2f",
+   "SKILL": "exact-loader:FINANCIAL_PERIODS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:22:52.964000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 240
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "43dfc4ed-890c-439e-bae8-51513b0fa73d",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:53.741000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "43dfc4ed-890c-439e-bae8-51513b0fa73d",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:22:59.145000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 147
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "83994a78-8c11-4057-a58c-776031ef029f",
+   "SKILL": "exact-loader:RECEIVABLES_LIST:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:22:59.511000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "83994a78-8c11-4057-a58c-776031ef029f",
+   "SKILL": "exact-loader:RECEIVABLES_LIST:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:23:02.291000+02:00",
+   "REASON": "403 RECEIVABLES_LIST: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Forbidden\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "26a59ae2-371e-4350-9790-29279cd222b0",
+   "SKILL": "exact-loader:PAYABLES_LIST:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:02.766000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "26a59ae2-371e-4350-9790-29279cd222b0",
+   "SKILL": "exact-loader:PAYABLES_LIST:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:23:05.470000+02:00",
+   "REASON": "403 PAYABLES_LIST: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Forbidden\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "f9dc80ee-98f1-4c09-a9ae-b4874ad360a7",
+   "SKILL": "exact-loader:DELETED:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:05.859000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "f9dc80ee-98f1-4c09-a9ae-b4874ad360a7",
+   "SKILL": "exact-loader:DELETED:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:23:12.580000+02:00",
+   "REASON": "000904 (42000): SQL compilation error: error line 4 at position 36\ninvalid identifier 'ID'",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "ab53a16d-155e-4d70-a9b3-190130aefef0",
+   "SKILL": "exact-loader",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:23:13.629000+02:00",
+   "REASON": "Command '['C:\\\\etl\\\\repos\\\\exact-agent\\\\.venv\\\\Scripts\\\\python.exe', 'loader/load.py', '--phase', '3']' returned non-zero exit status 1.",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "df70471f-1e8c-475d-a5bf-cf4f5479f239",
+   "SKILL": "exact-master-data-sync",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:14.054000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "6c60d70b-9a8d-48f1-9056-4971763eb99d",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:19.205000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "6c60d70b-9a8d-48f1-9056-4971763eb99d",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:23:22.273000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "2e861e76-d517-4d5b-a95b-1539930550c9",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:22.669000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "2e861e76-d517-4d5b-a95b-1539930550c9",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:23:25.330000+02:00",
+   "REASON": "404 BANK_ACCOUNTS: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Resource not found for the segment 'BankAccounts'.\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "53dd1e31-5bc1-4f6c-a4c0-8dff2b245f94",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:25.850000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "53dd1e31-5bc1-4f6c-a4c0-8dff2b245f94",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:23:28.729000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "a277fe5b-7e3a-4b3c-bed0-38cd10b08f69",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:29.136000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "a277fe5b-7e3a-4b3c-bed0-38cd10b08f69",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:23:33.742000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "a1b85346-45d0-449f-b893-f90b7b5ce381",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:34.382000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "a1b85346-45d0-449f-b893-f90b7b5ce381",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:23:36.992000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "3263bfb4-0437-4506-af39-122e0b1f058c",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:37.707000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "3263bfb4-0437-4506-af39-122e0b1f058c",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:23:41.916000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "64e7bb6f-f5de-4d88-b3c2-6c2272ffe866",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:42.697000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "64e7bb6f-f5de-4d88-b3c2-6c2272ffe866",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:23:46.802000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "b0312c2d-ce7d-4fe0-b1d7-88761dda1e36",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:47.153000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "b0312c2d-ce7d-4fe0-b1d7-88761dda1e36",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:23:49.568000+02:00",
+   "REASON": "400 JOURNALS: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Type 'Exact.Web.Api.Models.Journal' does not have a property named 'SuspenseGLAccount'.\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "df70471f-1e8c-475d-a5bf-cf4f5479f239",
+   "SKILL": "exact-master-data-sync",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 14:23:50.255000+02:00",
+   "REASON": "Command '['C:\\\\etl\\\\repos\\\\exact-agent\\\\.venv\\\\Scripts\\\\python.exe', 'loader/load.py', '--entities', 'ACCOUNTS,BANK_ACCOUNTS,ITEMS,COST_CENTERS,COST_UNITS,PAYMENT_CONDITIONS,VAT_CODES,JOURNALS']' returned non-zero exit status 1.",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "9119d77d-00b5-4fc3-88f7-842de2ae1487",
+   "SKILL": "exact-config-snapshot",
+   "EVENT": "skipped",
+   "EVENT_AT": "2026-09-28 14:23:50.627000+02:00",
+   "REASON": "required step did not succeed",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "91be0d26-e75f-45dc-9256-de27455a28a2",
+   "SKILL": "exact-audit-export",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:51.046000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "5e641fcb-0bea-40f1-92af-5e6f6921abdb",
+   "SKILL": "exact-audit-export",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 14:23:55.434000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "5e641fcb-0bea-40f1-92af-5e6f6921abdb",
+   "SKILL": "exact-audit-export",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:24:06.247000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "9d2121ff-2f9c-47fe-92d8-a23f49dadd41",
+   "STEP_ID": "91be0d26-e75f-45dc-9256-de27455a28a2",
+   "SKILL": "exact-audit-export",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 14:24:10.056000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "STEP_ID": "8d3b3764-6a77-4cc7-b4c9-02d6044ae552",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 15:32:51.564000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "STEP_ID": "8d3b3764-6a77-4cc7-b4c9-02d6044ae552",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 15:32:54.745000+02:00",
+   "REASON": "HTTPSConnectionPool(host='start.exactonline.nl', port=443): Max retries exceeded with url: /api/oauth2/token (Caused by NameResolutionError(\"HTTPSConnection(host='start.exactonline.nl', port=443): Failed to resolve 'start.exactonline.nl' ([Errno 11001] getaddrinfo failed)\"))",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "STEP_ID": "8d3d9267-dffa-467d-b7b2-7534564e62ea",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 15:32:55.478000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "STEP_ID": "8d3d9267-dffa-467d-b7b2-7534564e62ea",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 15:32:59.622000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 15
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "STEP_ID": "d9d725a1-615b-4997-9e13-02080cd9ad9d",
+   "SKILL": "exact-loader:DELETED:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 15:33:00.003000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9304aad0-4ecc-4a1e-b9f3-8a4559629104",
+   "STEP_ID": "d9d725a1-615b-4997-9e13-02080cd9ad9d",
+   "SKILL": "exact-loader:DELETED:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 15:33:07.460000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 1794
+  },
+  {
+   "RUN_ID": "a9555775-0c76-44d8-ab0a-79df6469f50e",
+   "STEP_ID": "155ecd22-06b3-42f2-b581-2e8b7fe6923e",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 15:37:59.213000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "a9555775-0c76-44d8-ab0a-79df6469f50e",
+   "STEP_ID": "155ecd22-06b3-42f2-b581-2e8b7fe6923e",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 15:46:37.246000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 11791
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "1db48c57-d671-4f03-8db5-ebb029d4c40e",
+   "SKILL": "exact-loader",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:18:27.601000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "243031f5-8aed-425e-9005-0edfc5026847",
+   "SKILL": "exact-loader:TRANSACTION_LINES:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:18:32.280000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "243031f5-8aed-425e-9005-0edfc5026847",
+   "SKILL": "exact-loader:TRANSACTION_LINES:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:18:38.404000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 18
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "2450a2be-e674-48e7-89a1-88899581af9c",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:18:38.853000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "2450a2be-e674-48e7-89a1-88899581af9c",
+   "SKILL": "exact-loader:GL_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:18:41.705000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "fd0afe95-d7f2-48aa-a3bd-937e721f832c",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:18:42.279000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "fd0afe95-d7f2-48aa-a3bd-937e721f832c",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:18:44.536000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "941536c9-a065-47ee-bf28-19e78067d94e",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:18:45.009000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "941536c9-a065-47ee-bf28-19e78067d94e",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:26:48+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "b822e855-6f1e-45fe-841a-de783c995e4e",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:26:48.468000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "b822e855-6f1e-45fe-841a-de783c995e4e",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:26:51.797000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "8f1b4527-bb6e-4bc4-a9e3-530486b298f8",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:26:52.180000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "8f1b4527-bb6e-4bc4-a9e3-530486b298f8",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:26:56.012000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "591f1349-ba08-477f-96ff-eb1068b2d951",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:26:56.429000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "591f1349-ba08-477f-96ff-eb1068b2d951",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:26:59.672000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "bf6136eb-b309-45e1-8b40-a447b5e6befd",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:00.005000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "bf6136eb-b309-45e1-8b40-a447b5e6befd",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:27:01.978000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "0456c2b6-f47b-458a-a65b-ffa416b8fa7a",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:02.359000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "0456c2b6-f47b-458a-a65b-ffa416b8fa7a",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:27:05.568000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "455ad1f8-6270-4281-b36b-c80491b44393",
+   "SKILL": "exact-loader:FINANCIAL_PERIODS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:06.082000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "455ad1f8-6270-4281-b36b-c80491b44393",
+   "SKILL": "exact-loader:FINANCIAL_PERIODS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:27:18.437000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "2e1a2538-db53-44fa-9947-368ac5875af1",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:18.810000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "2e1a2538-db53-44fa-9947-368ac5875af1",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:27:21.252000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "53974168-1639-4c46-94a6-34e5a679c065",
+   "SKILL": "exact-loader:RECEIVABLES_LIST:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:21.638000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "53974168-1639-4c46-94a6-34e5a679c065",
+   "SKILL": "exact-loader:RECEIVABLES_LIST:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 16:27:23.709000+02:00",
+   "REASON": "403 RECEIVABLES_LIST: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Forbidden\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "f972e18d-8a98-447d-b375-2d8dfd5a441e",
+   "SKILL": "exact-loader:PAYABLES_LIST:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:24.564000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "f972e18d-8a98-447d-b375-2d8dfd5a441e",
+   "SKILL": "exact-loader:PAYABLES_LIST:2261919",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 16:27:26.666000+02:00",
+   "REASON": "403 PAYABLES_LIST: {\r\n\"error\": {\r\n\"code\": \"\", \"message\": {\r\n\"lang\": \"\", \"value\": \"Forbidden\"\r\n}\r\n}\r\n}",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "658c79cd-9a9e-4ef8-b1f8-cbe804e217b5",
+   "SKILL": "exact-loader:DELETED:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:27.112000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "658c79cd-9a9e-4ef8-b1f8-cbe804e217b5",
+   "SKILL": "exact-loader:DELETED:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:27:29.119000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "1db48c57-d671-4f03-8db5-ebb029d4c40e",
+   "SKILL": "exact-loader",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 16:27:29.672000+02:00",
+   "REASON": "Command '['C:\\\\etl\\\\repos\\\\exact-agent\\\\.venv\\\\Scripts\\\\python.exe', 'loader/load.py', '--phase', '3']' returned non-zero exit status 1.",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "b6395435-1a64-474b-978f-e34312423e3a",
+   "SKILL": "exact-master-data-sync",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:30.143000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "96b6c13a-d17f-44a9-8faa-cfddf592997d",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:34.268000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "96b6c13a-d17f-44a9-8faa-cfddf592997d",
+   "SKILL": "exact-loader:ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 16:27:36.632000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "e955b1a1-8aa4-484a-9932-7c2dd279abcc",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 16:27:37.082000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "e955b1a1-8aa4-484a-9932-7c2dd279abcc",
+   "SKILL": "exact-loader:BANK_ACCOUNTS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:26:57.091000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "b82f8d44-f889-41cd-b63d-db382bb61db0",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:26:58.049000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "b82f8d44-f889-41cd-b63d-db382bb61db0",
+   "SKILL": "exact-loader:ITEMS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:00.875000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "33d17fbd-794b-4192-91eb-65a2cc51e4a9",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:01.453000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "33d17fbd-794b-4192-91eb-65a2cc51e4a9",
+   "SKILL": "exact-loader:COST_CENTERS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:05.657000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "d62bbeb7-909e-4977-a563-681f2328d74a",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:05.999000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "d62bbeb7-909e-4977-a563-681f2328d74a",
+   "SKILL": "exact-loader:COST_UNITS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:08.794000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "0ec4f90f-0513-494e-84a6-3de9db5f6d90",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:09.310000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "0ec4f90f-0513-494e-84a6-3de9db5f6d90",
+   "SKILL": "exact-loader:PAYMENT_CONDITIONS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:13.792000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "fb483f21-7a81-4ae8-bfe8-f7d1769ec17f",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:14.319000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "fb483f21-7a81-4ae8-bfe8-f7d1769ec17f",
+   "SKILL": "exact-loader:VAT_CODES:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:19.081000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "1ff2b6fb-7e00-40ed-9134-dbc124e1916a",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:19.565000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "1ff2b6fb-7e00-40ed-9134-dbc124e1916a",
+   "SKILL": "exact-loader:JOURNALS:2261919",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:23.383000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "b6395435-1a64-474b-978f-e34312423e3a",
+   "SKILL": "exact-master-data-sync",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:24.320000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "429b469b-3da7-41e8-8d8b-1ef1a7941fb8",
+   "SKILL": "exact-config-snapshot",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:24.780000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "f3258184-7776-46d8-bd50-1c938371083e",
+   "SKILL": "exact-config-snapshot",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:29.283000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "f3258184-7776-46d8-bd50-1c938371083e",
+   "SKILL": "exact-config-snapshot",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 18:27:30.495000+02:00",
+   "REASON": "PII guard blocked write to snapshots/2261919/gl_accounts.json: ['IBAN-like: NL14AB\u2026']",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "429b469b-3da7-41e8-8d8b-1ef1a7941fb8",
+   "SKILL": "exact-config-snapshot",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:31.387000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "22eb78a9-211f-4e23-8428-2a9534a50fea",
+   "SKILL": "exact-audit-export",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:32.257000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "4cafd7e8-ea41-4cb2-a9bf-d863be6e0ac0",
+   "SKILL": "exact-audit-export",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 18:27:36.752000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "4cafd7e8-ea41-4cb2-a9bf-d863be6e0ac0",
+   "SKILL": "exact-audit-export",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:45.795000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 0
+  },
+  {
+   "RUN_ID": "370764c4-4b3c-4df3-80b3-06434e207d79",
+   "STEP_ID": "22eb78a9-211f-4e23-8428-2a9534a50fea",
+   "SKILL": "exact-audit-export",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 18:27:46.855000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "eabc4c3e-119f-4c12-820e-b36193622666",
+   "STEP_ID": "d18004d5-1ea8-4a09-a1d7-52800cb7ab55",
+   "SKILL": "exact-config-snapshot",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 19:54:33.728000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "eabc4c3e-119f-4c12-820e-b36193622666",
+   "STEP_ID": "d18004d5-1ea8-4a09-a1d7-52800cb7ab55",
+   "SKILL": "exact-config-snapshot",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 19:54:37.475000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 703
+  },
+  {
+   "RUN_ID": "07ad60e0-dfc3-49f9-9910-289603eaa901",
+   "STEP_ID": "2fef53c4-ff95-4862-a50c-d5bf6353e992",
+   "SKILL": "exact-hygiene-monitor",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 20:06:57.017000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "STEP_ID": "af812890-5929-41c7-90f3-74454a283b82",
+   "SKILL": "exact-hygiene-monitor",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:38:22.797000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "STEP_ID": "af812890-5929-41c7-90f3-74454a283b82",
+   "SKILL": "exact-hygiene-monitor",
+   "EVENT": "failed",
+   "EVENT_AT": "2026-09-28 21:38:36.056000+02:00",
+   "REASON": "Command '['C:\\\\Users\\\\siddm\\\\Downloads\\\\exact-agent\\\\exact-agent\\\\.venv\\\\Scripts\\\\python.exe', 'rules/run_rules.py', '--monitor', 'exact-hygiene-monitor', '--run-id', '9bbea266-985b-4a90-b7ab-39d1dee03de4', '--step-id', 'af812890-5929-41c7-90f3-74454a283b82']' returned non-zero exit status 1.",
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "STEP_ID": "442c8724-65f8-469b-9326-bea87923b9a2",
+   "SKILL": "exact-setup-monitor",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:38:36.485000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "STEP_ID": "442c8724-65f8-469b-9326-bea87923b9a2",
+   "SKILL": "exact-setup-monitor",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 21:38:44.807000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "STEP_ID": "24f63335-052b-4014-bf2c-552939688378",
+   "SKILL": "exact-bank-reconciliation-monitor",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:38:45.424000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "9bbea266-985b-4a90-b7ab-39d1dee03de4",
+   "STEP_ID": "24f63335-052b-4014-bf2c-552939688378",
+   "SKILL": "exact-bank-reconciliation-monitor",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 21:38:49.757000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "47306cd8-1fda-4ccf-a722-67083f2294ab",
+   "SKILL": "exact-hygiene-monitor",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:49:25.803000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "47306cd8-1fda-4ccf-a722-67083f2294ab",
+   "SKILL": "exact-hygiene-monitor",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 21:49:38.048000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "98dd0aa8-1228-4d2d-8425-e0c7b4bfa9d1",
+   "SKILL": "exact-setup-monitor",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:49:38.525000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "98dd0aa8-1228-4d2d-8425-e0c7b4bfa9d1",
+   "SKILL": "exact-setup-monitor",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 21:49:43.780000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "579e3958-b7a1-4e0f-872e-bca0b3a2a93a",
+   "SKILL": "exact-bank-reconciliation-monitor",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-28 21:49:44.577000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "579e3958-b7a1-4e0f-872e-bca0b3a2a93a",
+   "SKILL": "exact-bank-reconciliation-monitor",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-28 21:49:48.678000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "fdb880d0-fc7f-458f-9828-8b2999637bb5",
+   "SKILL": "exact-finding-triage",
+   "EVENT": "started",
+   "EVENT_AT": "2026-09-29 09:20:17.902000+02:00",
+   "REASON": null,
+   "ROWS_OUT": null
+  },
+  {
+   "RUN_ID": "6199f01c-4f14-4b18-9417-7dcdd23e3b61",
+   "STEP_ID": "fdb880d0-fc7f-458f-9828-8b2999637bb5",
+   "SKILL": "exact-finding-triage",
+   "EVENT": "succeeded",
+   "EVENT_AT": "2026-09-29 09:20:31.180000+02:00",
+   "REASON": null,
+   "ROWS_OUT": 118
+  }
+ ],
+ "decisions": [],
+ "change_requests": [],
+ "untagged_queries": []
+}
