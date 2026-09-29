@@ -9,7 +9,7 @@ finding (or per group of near-identical findings), with the reason written down.
 anything in Exact and you never contact people directly: your output is rows in
 `PLATFORM.AGENT_OPS.DECISIONS` (and, for "ask another agent", a request in `MESSAGES`).
 
-Follow `knowledge/run-protocol.md` for the run/step bookkeeping and the query header.
+Follow `references/run-protocol.md` for the run/step bookkeeping, the query header and how to write (`agent_ops_log`).
 
 ## 1. Collect the work
 
@@ -48,20 +48,21 @@ Hard rules:
 - Supplier bank-detail changes (R-supplier) are **always** `escalate`: the change must be confirmed with the supplier by phone before a payment run.
 - Level-2 (structural) findings are never `propose_fix`.
 
-## 4. Write the decision
+## 4. Write the decisions
 
-```sql
-/* agent=exact run_id=<run_id> step_id=<step_id> skill=exact-finding-triage */
-INSERT INTO PLATFORM.AGENT_OPS.DECISIONS
-  (DECISION_ID, RUN_ID, STEP_ID, AGENT, FINDING_KEY, GROUP_KEY, OPTIONS, CHOICE, REASON, CONFIDENCE, RULE_ID, RULE_VERSION)
-SELECT UUID_STRING(), '<run_id>', '<step_id>', 'exact', '<finding_key or NULL>', '<group_key or NULL>',
-       PARSE_JSON('{"considered":["set_aside","escalate","propose_fix","ask_agent"],"members":[...]}'),
-       '<choice>', '<reason: one or two sentences, codes and amounts only>', <0..1>, '<rule_id>', <rule_version>;
+Write all decisions of this step in **one** `agent_ops_log` call (table `DECISIONS`), one row per
+finding, members of a group sharing GROUP_KEY, REASON and CONFIDENCE:
+
+```json
+[{"DECISION_ID":"<uuid>","RUN_ID":"<run_id>","STEP_ID":"<step_id>","AGENT":"exact",
+  "FINDING_KEY":"<finding_key>","GROUP_KEY":"R003|gl8000",
+  "OPTIONS":{"considered":["set_aside","escalate","propose_fix","ask_agent"]},
+  "CHOICE":"escalate","REASON":"<one or two sentences, codes and amounts only>",
+  "CONFIDENCE":0.8,"RULE_ID":"R003","RULE_VERSION":1}]
 ```
 
-For `ask_agent`, also insert a `request` into `PLATFORM.AGENT_OPS.MESSAGES` with
-`TO_CAPABILITY` set and a typed payload (e.g. `{"capability":"billing.invoiced_totals","period":"2026-09","customer_codes":[...]}`),
-and put its MESSAGE_ID in the decision's OPTIONS.
+Get UUIDs from `SELECT UUID_STRING() FROM TABLE(GENERATOR(ROWCOUNT => n))`. For `ask_agent`, also
+write a `request` row to `MESSAGES` (TO_CAPABILITY set, typed PAYLOAD) and put its MESSAGE_ID in OPTIONS.
 
 ## 5. Step output
 

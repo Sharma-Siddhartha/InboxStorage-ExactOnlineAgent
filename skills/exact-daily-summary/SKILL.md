@@ -4,6 +4,9 @@ description: Exact Online agent (Inbox Storage): post the end-of-day summary to 
 ---
 # Daily summary
 
+Follow `references/run-protocol.md` (run/step bookkeeping, query header, writes via `agent_ops_log`) and `references/conventions.md`.
+
+
 Post one end-of-day message to the agent's Slack channel (agent.yml `slack_channel`) for the finance
 owner. It must be readable in 30 seconds and traceable to the run.
 

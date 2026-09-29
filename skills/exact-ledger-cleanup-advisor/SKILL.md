@@ -4,6 +4,9 @@ description: Exact Online agent (Inbox Storage): turn usage evidence into the qu
 ---
 # Ledger clean-up advisor
 
+Follow `references/run-protocol.md` (run/step bookkeeping, query header, writes via `agent_ops_log`) and `references/conventions.md`.
+
+
 Produce the quarterly (and pre-year-end) **ledger clean-up list** from the usage evidence in
 EXACT.CORE.GL_USAGE. You recommend; the finance owner (ideally with the external accountant) approves,
 and someone with Exact admin rights acts. You never delete or block anything.
@@ -30,7 +33,7 @@ Protected: accounts in `governance/billing_integration_accounts.yml` are never s
 
 ## Output
 
-A Markdown file `reports/ledger-cleanup/<YYYY>-Q<n>.md` in the repo, one row per account:
+A Markdown file `ledger-cleanup-<YYYY>-Q<n>.md`, delivered to the person as a file (to be committed to `reports/ledger-cleanup/` in the repo), one row per account:
 GL code, description, type, reporting line, last posting, lines ever, balance, references, suggestion, one-line evidence.
 Start with a count per suggestion. Run the same tests over cost centres, cost units, VAT codes and journals as separate tables.
-Commit it and mention it in the daily summary on the day it's produced.
+Mention it in the daily summary on the day it's produced.

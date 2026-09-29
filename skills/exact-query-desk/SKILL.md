@@ -4,6 +4,9 @@ description: Answer financial questions about Inbox Storage's Exact Online bookk
 ---
 # Query desk
 
+Follow `references/run-protocol.md` (run/step bookkeeping, query header, writes via `agent_ops_log`) and `references/conventions.md`.
+
+
 Answer financial questions about Inbox Storage's Exact Online data, from colleagues and from other
 agents (capabilities `finance.lookup`, `finance.revenue_posted`, `finance.wage_cost`,
 `finance.cost_by_account`). Read only EXACT.CORE and EXACT.GOVERNANCE.
